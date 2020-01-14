@@ -1,0 +1,247 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TimeConstants"
+- "StorageExpiration"
+- "ExpirationExtending"
+- "CacheCostCalculable"
+- "DataTransformable"
+provides-nominal:
+- "10Kingfisher13TimeConstantsV"
+- "10Kingfisher17StorageExpirationO"
+- "10Kingfisher19ExpirationExtendingO"
+- "10Kingfisher19CacheCostCalculableP"
+- "10Kingfisher17DataTransformableP"
+provides-member:
+- ["10Kingfisher13TimeConstantsV", ""]
+- ["10Kingfisher17StorageExpirationO", ""]
+- ["10Kingfisher19ExpirationExtendingO", ""]
+- ["10Kingfisher19CacheCostCalculableP", ""]
+- ["10Kingfisher17DataTransformableP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "*"
+- !private "-"
+- !private "<="
+- "Bool"
+- "CacheCostCalculable"
+- "Data"
+- "DataTransformable"
+- "Date"
+- "ExpirationExtending"
+- "Int"
+- "StorageExpiration"
+- "TimeConstants"
+- "TimeInterval"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "infinity"]
+- ["s18AdditiveArithmeticP", "init"]
+- !private ["SB", "infinity"]
+- ["SB", "init"]
+- !private ["s7CVarArgP", "infinity"]
+- ["s7CVarArgP", "init"]
+- ["10Kingfisher19CacheCostCalculableP", "Int"]
+- ["10Kingfisher19CacheCostCalculableP", "cacheCost"]
+- !private ["SL", "addingTimeInterval"]
+- !private ["SL", "distantFuture"]
+- !private ["SL", "distantPast"]
+- !private ["SL", "infinity"]
+- ["SL", "init"]
+- !private ["SL", "timeIntervalSinceNow"]
+- !private ["s28CustomDebugStringConvertibleP", "addingTimeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "distantFuture"]
+- !private ["s28CustomDebugStringConvertibleP", "distantPast"]
+- !private ["s28CustomDebugStringConvertibleP", "infinity"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSinceNow"]
+- !private ["s17CustomReflectableP", "addingTimeInterval"]
+- !private ["s17CustomReflectableP", "distantFuture"]
+- !private ["s17CustomReflectableP", "distantPast"]
+- !private ["s17CustomReflectableP", "infinity"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "timeIntervalSinceNow"]
+- !private ["s23CustomStringConvertibleP", "addingTimeInterval"]
+- !private ["s23CustomStringConvertibleP", "distantFuture"]
+- !private ["s23CustomStringConvertibleP", "distantPast"]
+- !private ["s23CustomStringConvertibleP", "infinity"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSinceNow"]
+- ["10Kingfisher17DataTransformableP", "Data"]
+- ["10Kingfisher17DataTransformableP", "empty"]
+- ["10Kingfisher17DataTransformableP", "fromData"]
+- ["10Kingfisher17DataTransformableP", "toData"]
+- !private ["10Foundation4DateV", "addingTimeInterval"]
+- !private ["10Foundation4DateV", "distantFuture"]
+- !private ["10Foundation4DateV", "distantPast"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSinceNow"]
+- !private ["Se", "addingTimeInterval"]
+- !private ["Se", "distantFuture"]
+- !private ["Se", "distantPast"]
+- !private ["Se", "infinity"]
+- ["Se", "init"]
+- !private ["Se", "timeIntervalSinceNow"]
+- !private ["Sd", "infinity"]
+- ["Sd", "init"]
+- !private ["SE", "addingTimeInterval"]
+- !private ["SE", "distantFuture"]
+- !private ["SE", "distantPast"]
+- !private ["SE", "infinity"]
+- ["SE", "init"]
+- !private ["SE", "timeIntervalSinceNow"]
+- !private ["SQ", "addingTimeInterval"]
+- !private ["SQ", "distantFuture"]
+- !private ["SQ", "distantPast"]
+- !private ["SQ", "infinity"]
+- ["SQ", "init"]
+- !private ["SQ", "timeIntervalSinceNow"]
+- ["10Kingfisher19ExpirationExtendingO", "StorageExpiration"]
+- ["10Kingfisher19ExpirationExtendingO", "cacheTime"]
+- ["10Kingfisher19ExpirationExtendingO", "expirationTime"]
+- ["10Kingfisher19ExpirationExtendingO", "none"]
+- !private ["s25ExpressibleByFloatLiteralP", "infinity"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "infinity"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["SF", "infinity"]
+- ["SF", "init"]
+- !private ["SH", "addingTimeInterval"]
+- !private ["SH", "distantFuture"]
+- !private ["SH", "distantPast"]
+- !private ["SH", "infinity"]
+- ["SH", "init"]
+- !private ["SH", "timeIntervalSinceNow"]
+- !private ["s25LosslessStringConvertibleP", "infinity"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["Sj", "infinity"]
+- ["Sj", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "addingTimeInterval"]
+- !private ["10Foundation20ReferenceConvertibleP", "distantFuture"]
+- !private ["10Foundation20ReferenceConvertibleP", "distantPast"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSinceNow"]
+- !private ["s10SIMDScalarP", "infinity"]
+- ["s10SIMDScalarP", "init"]
+- !private ["s13SignedNumericP", "infinity"]
+- ["s13SignedNumericP", "init"]
+- ["10Kingfisher17StorageExpirationO", "Bool"]
+- ["10Kingfisher17StorageExpirationO", "Date"]
+- ["10Kingfisher17StorageExpirationO", "Int"]
+- !private ["10Kingfisher17StorageExpirationO", "TimeConstants"]
+- ["10Kingfisher17StorageExpirationO", "TimeInterval"]
+- ["10Kingfisher17StorageExpirationO", "date"]
+- ["10Kingfisher17StorageExpirationO", "days"]
+- ["10Kingfisher17StorageExpirationO", "estimatedExpirationSince"]
+- ["10Kingfisher17StorageExpirationO", "estimatedExpirationSinceNow"]
+- ["10Kingfisher17StorageExpirationO", "expired"]
+- ["10Kingfisher17StorageExpirationO", "isExpired"]
+- ["10Kingfisher17StorageExpirationO", "never"]
+- ["10Kingfisher17StorageExpirationO", "seconds"]
+- ["10Kingfisher17StorageExpirationO", "timeInterval"]
+- !private ["Sx", "infinity"]
+- ["Sx", "init"]
+- !private ["s20TextOutputStreamableP", "infinity"]
+- ["s20TextOutputStreamableP", "init"]
+- ["10Kingfisher13TimeConstantsV", "TimeInterval"]
+- ["10Kingfisher13TimeConstantsV", "hoursInOneDay"]
+- ["10Kingfisher13TimeConstantsV", "init"]
+- ["10Kingfisher13TimeConstantsV", "minutesInOneHour"]
+- ["10Kingfisher13TimeConstantsV", "secondsInOneDay"]
+- ["10Kingfisher13TimeConstantsV", "secondsInOneMinute"]
+- !private ["s15_CVarArgAlignedP", "infinity"]
+- ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "infinity"]
+- ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "addingTimeInterval"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "distantFuture"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "distantPast"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "infinity"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSinceNow"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "infinity"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "infinity"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "infinity"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "addingTimeInterval"]
+- !private ["s21_ObjectiveCBridgeableP", "distantFuture"]
+- !private ["s21_ObjectiveCBridgeableP", "distantPast"]
+- !private ["s21_ObjectiveCBridgeableP", "infinity"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSinceNow"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "SB"
+- "s7CVarArgP"
+- "10Kingfisher19CacheCostCalculableP"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Kingfisher17DataTransformableP"
+- !private "10Foundation4DateV"
+- "Se"
+- "Sd"
+- "SE"
+- "SQ"
+- "10Kingfisher19ExpirationExtendingO"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "SF"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "Sj"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s10SIMDScalarP"
+- "s13SignedNumericP"
+- "10Kingfisher17StorageExpirationO"
+- "Sx"
+- "s20TextOutputStreamableP"
+- "10Kingfisher13TimeConstantsV"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WatchKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Teste_iOS-TesteiOS_BASE_API/TestTMBD/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
+- "/Users/ThiagoBevi/Downloads/Teste_iOS-TesteiOS_BASE_API/TestTMBD/Pods/Kingfisher/Sources/Kingfisher.h"
+- "/Users/ThiagoBevi/Downloads/Teste_iOS-TesteiOS_BASE_API/TestTMBD/Build/Intermediates/Pods.build/Debug-iphonesimulator/Kingfisher.build/unextended-module.modulemap"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WatchKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1b60678a5022993e09c3b4085e995e9c"

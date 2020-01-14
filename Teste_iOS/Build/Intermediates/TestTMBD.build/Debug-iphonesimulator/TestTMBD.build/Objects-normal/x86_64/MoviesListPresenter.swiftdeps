@@ -1,0 +1,121 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RequestAuthPresentable"
+- "RequestMoviesListPresentable"
+- "MoviesListPresenter"
+provides-nominal:
+- "8TestTMBD22RequestAuthPresentableP"
+- "8TestTMBD28RequestMoviesListPresentableP"
+- "8TestTMBD19MoviesListPresenterC"
+provides-member:
+- ["8TestTMBD22RequestAuthPresentableP", ""]
+- ["8TestTMBD28RequestMoviesListPresentableP", ""]
+- ["8TestTMBD19MoviesListPresenterC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- "Int"
+- "MovieListServiceProtocol"
+- "MoviesListPresenter"
+- "MoviesListService"
+- "MoviesListView"
+- "RequestAuthPresentable"
+- "RequestMoviesListPresentable"
+- "String"
+depends-member:
+- !private ["Se", "results"]
+- !private ["SE", "results"]
+- !private ["8TestTMBD24MovieListServiceProtocolP", "moviesList"]
+- !private ["8TestTMBD24MovieListServiceProtocolP", "parameters"]
+- !private ["8TestTMBD24MovieListServiceProtocolP", "requestAuth"]
+- !private ["8TestTMBD24MovieListServiceProtocolP", "searchMovieData"]
+- !private ["8TestTMBD13MovieResponseV", "results"]
+- ["8TestTMBD19MoviesListPresenterC", "Int"]
+- ["8TestTMBD19MoviesListPresenterC", "MovieListServiceProtocol"]
+- ["8TestTMBD19MoviesListPresenterC", "MoviesListService"]
+- ["8TestTMBD19MoviesListPresenterC", "MoviesListView"]
+- ["8TestTMBD19MoviesListPresenterC", "String"]
+- ["8TestTMBD19MoviesListPresenterC", "attachView"]
+- ["8TestTMBD19MoviesListPresenterC", "deinit"]
+- ["8TestTMBD19MoviesListPresenterC", "init"]
+- ["8TestTMBD19MoviesListPresenterC", "moviesList"]
+- !private ["8TestTMBD19MoviesListPresenterC", "moviesView"]
+- ["8TestTMBD19MoviesListPresenterC", "requestAuth"]
+- ["8TestTMBD19MoviesListPresenterC", "searchMovie"]
+- ["8TestTMBD19MoviesListPresenterC", "serviceClass"]
+- !private ["8TestTMBD17MoviesListServiceC", "deinit"]
+- !private ["8TestTMBD17MoviesListServiceC", "moviesList"]
+- !private ["8TestTMBD17MoviesListServiceC", "parameters"]
+- !private ["8TestTMBD17MoviesListServiceC", "requestAuth"]
+- !private ["8TestTMBD17MoviesListServiceC", "searchMovieData"]
+- !private ["8TestTMBD14MoviesListViewP", "requestAuth"]
+- !private ["8TestTMBD14MoviesListViewP", "showMoviesList"]
+- !private ["8TestTMBD14MoviesListViewP", "showSearchMovie"]
+- ["8TestTMBD22RequestAuthPresentableP", ""]
+- ["8TestTMBD22RequestAuthPresentableP", "moviesList"]
+- !private ["8TestTMBD22RequestAuthPresentableP", "moviesView"]
+- ["8TestTMBD22RequestAuthPresentableP", "requestAuth"]
+- !private ["8TestTMBD22RequestAuthPresentableP", "serviceClass"]
+- ["8TestTMBD28RequestMoviesListPresentableP", "Int"]
+- ["8TestTMBD28RequestMoviesListPresentableP", ""]
+- ["8TestTMBD28RequestMoviesListPresentableP", "moviesList"]
+- !private ["8TestTMBD28RequestMoviesListPresentableP", "moviesView"]
+- ["8TestTMBD28RequestMoviesListPresentableP", "requestAuth"]
+- !private ["8TestTMBD28RequestMoviesListPresentableP", "serviceClass"]
+depends-nominal:
+- !private "Se"
+- !private "SE"
+- !private "8TestTMBD24MovieListServiceProtocolP"
+- !private "8TestTMBD13MovieResponseV"
+- "8TestTMBD19MoviesListPresenterC"
+- !private "8TestTMBD17MoviesListServiceC"
+- !private "8TestTMBD14MoviesListViewP"
+- "8TestTMBD22RequestAuthPresentableP"
+- "8TestTMBD28RequestMoviesListPresentableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/ThiagoBevi/Developer/Teste_iOS/Teste_iOS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/ThiagoBevi/Developer/Teste_iOS/Teste_iOS/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WatchKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ThiagoBevi/Developer/Teste_iOS/Teste_iOS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/ThiagoBevi/Developer/Teste_iOS/Teste_iOS/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/ThiagoBevi/Developer/Teste_iOS/Teste_iOS/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/ThiagoBevi/Developer/Teste_iOS/Teste_iOS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/ThiagoBevi/Developer/Teste_iOS/Teste_iOS/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/ThiagoBevi/Developer/Teste_iOS/Teste_iOS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/ThiagoBevi/Developer/Teste_iOS/Teste_iOS/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WatchKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2446e484bd8b523ef5dff68694ff841a"
