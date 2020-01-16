@@ -13,15 +13,22 @@ class MoviesTableViewController: UITableViewController {
     var searchController: UISearchController?
     var presenter = MoviesListPresenter(service: MoviesListService(), serviceClass: MoviesListService())
     var movies: [Movie] = []
+    
     var moviesSearch: [Movie] = []
-    var isLoading = false
+    var isTopMovie = true
       var i = 2
     @IBOutlet weak var searchBar: UISearchBar!
   
     @IBAction func loadNextMovies(_ sender: Any) {
+        if isTopMovie == true {
         presenter.moviesList(page: i)
         i+=1
         tableView.reloadData()
+        } else {
+                presenter.searchMovie(text: searchBar.text!, page: i)
+            i+=1
+            tableView.reloadData()
+        }
     }
     
     override func viewDidLoad() {
@@ -123,8 +130,16 @@ extension MoviesTableViewController: UISearchResultsUpdating, UISearchBarDelegat
     }
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        isTopMovie = false
         let text = searchBar.text
-        presenter.searchMovie(text: text!)
+        presenter.searchMovie(text: text!, page: 1)
+        
+    }
+    
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        movies.removeAll()
+        presenter.moviesList(page: 1)
+        tableView.reloadData()
     }
 }
 

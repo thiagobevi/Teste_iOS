@@ -72,8 +72,8 @@ class MoviesListService: MovieListServiceProtocol {
         }
     }
     
-    func searchMovieData(text: String, completion: @escaping (MovieResponse?) -> ()) {
-        let request = Alamofire.request("https://api.themoviedb.org/3/search/movie?api_key=4f3cb82e06a1124218f505eca21fa375&language=en-US&query=\(text)&page=1&include_adult=false", method: .get)
+    func searchMovieData(text: String, page: Int, completion: @escaping (MovieResponse?) -> ()) {
+        let request = Alamofire.request("https://api.themoviedb.org/3/search/movie?api_key=4f3cb82e06a1124218f505eca21fa375&language=en-US&query=\(text)&page=\(page)&include_adult=false", method: .get)
         request.responseJSON { response in
             if response.result.isSuccess {
                 print("Search Result OK")
