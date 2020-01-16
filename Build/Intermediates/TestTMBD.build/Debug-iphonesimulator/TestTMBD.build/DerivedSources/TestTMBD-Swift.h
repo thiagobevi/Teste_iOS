@@ -253,6 +253,7 @@ SWIFT_CLASS("_TtC8TestTMBD25MoviesTableViewController")
 @interface MoviesTableViewController (SWIFT_EXTENSION(TestTMBD)) <UISearchBarDelegate, UISearchResultsUpdating>
 - (void)updateSearchResultsForSearchController:(UISearchController * _Nonnull)searchController;
 - (void)searchBarSearchButtonClicked:(UISearchBar * _Nonnull)searchBar;
+- (void)searchBarCancelButtonClicked:(UISearchBar * _Nonnull)searchBar;
 @end
 
 

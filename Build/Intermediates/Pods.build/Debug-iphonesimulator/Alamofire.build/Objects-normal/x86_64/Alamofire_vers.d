@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/ThiagoBevi/Downloads/Teste_iOS-TesteiOS_BASE_API/TestTMBD/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/DerivedSources/Alamofire_vers.c
+  /Users/ThiagoBevi/Developer/Teste_iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/DerivedSources/Alamofire_vers.c

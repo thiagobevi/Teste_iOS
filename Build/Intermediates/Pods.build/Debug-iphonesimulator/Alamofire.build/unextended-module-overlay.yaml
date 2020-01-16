@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': "/Users/ThiagoBevi/Downloads/Teste_iOS-TesteiOS_BASE_API/TestTMBD/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules"
+    'name': "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules"
     'contents': [{
       'type': 'file',
       'name': "module.modulemap",
-      'external-contents': "/Users/ThiagoBevi/Downloads/Teste_iOS-TesteiOS_BASE_API/TestTMBD/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap",
+      'external-contents': "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap",
     }]
   }]
 }

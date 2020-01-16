@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		35697B833E2C1875FA857664 /* Pods_TestTMBDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69EA94043B5F75217450763A /* Pods_TestTMBDTests.framework */; };
 		DB0DAF67C171E7D8EECE0623 /* Pods_TestTMBD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0316BD3B397406145F1B3861 /* Pods_TestTMBD.framework */; };
+		DB94D98E23D0D72E00617C30 /* TMDB_Teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94D98D23D0D72E00617C30 /* TMDB_Teste.swift */; };
 		DBB5ECFC23BA3DF500BD1996 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB5ECFB23BA3DF500BD1996 /* DetailsViewController.swift */; };
 		DBF5B02423AABDB500DBBE90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF5B02323AABDB500DBBE90 /* AppDelegate.swift */; };
 		DBF5B02923AABDB500DBBE90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF5B02723AABDB500DBBE90 /* Main.storyboard */; };
 		DBF5B02B23AABDB700DBBE90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF5B02A23AABDB700DBBE90 /* Assets.xcassets */; };
 		DBF5B02E23AABDB700DBBE90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF5B02C23AABDB700DBBE90 /* LaunchScreen.storyboard */; };
-		DBF5B03923AABDB700DBBE90 /* TestTMBDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF5B03823AABDB700DBBE90 /* TestTMBDTests.swift */; };
 		DBF5B04623B0FFA600DBBE90 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF5B04523B0FFA600DBBE90 /* MoviesTableViewController.swift */; };
 		DBF5B04823B1087F00DBBE90 /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF5B04723B1087F00DBBE90 /* MoviesListView.swift */; };
 		DBF5B04A23B1089A00DBBE90 /* MoviesListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF5B04923B1089A00DBBE90 /* MoviesListPresenter.swift */; };
@@ -39,6 +39,7 @@
 		69EA94043B5F75217450763A /* Pods_TestTMBDTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTMBDTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8180F3B6EB1408EC921F47A9 /* Pods-TestTMBD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTMBD.debug.xcconfig"; path = "Target Support Files/Pods-TestTMBD/Pods-TestTMBD.debug.xcconfig"; sourceTree = "<group>"; };
 		9782CC792B9CCA8E6BB0C288 /* Pods-TestTMBDTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTMBDTests.debug.xcconfig"; path = "Target Support Files/Pods-TestTMBDTests/Pods-TestTMBDTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB94D98D23D0D72E00617C30 /* TMDB_Teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_Teste.swift; sourceTree = "<group>"; };
 		DBB5ECFB23BA3DF500BD1996 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		DBF5B02023AABDB500DBBE90 /* TestTMBD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTMBD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF5B02323AABDB500DBBE90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		DBF5B02D23AABDB700DBBE90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBF5B02F23AABDB700DBBE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBF5B03423AABDB700DBBE90 /* TestTMBDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTMBDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBF5B03823AABDB700DBBE90 /* TestTMBDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTMBDTests.swift; sourceTree = "<group>"; };
 		DBF5B03A23AABDB700DBBE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBF5B04523B0FFA600DBBE90 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
 		DBF5B04723B1087F00DBBE90 /* MoviesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListView.swift; sourceTree = "<group>"; };
@@ -135,8 +135,8 @@
 		DBF5B03723AABDB700DBBE90 /* TestTMBDTests */ = {
 			isa = PBXGroup;
 			children = (
-				DBF5B03823AABDB700DBBE90 /* TestTMBDTests.swift */,
 				DBF5B03A23AABDB700DBBE90 /* Info.plist */,
+				DB94D98D23D0D72E00617C30 /* TMDB_Teste.swift */,
 			);
 			path = TestTMBDTests;
 			sourceTree = "<group>";
@@ -200,6 +200,7 @@
 				DBF5B03023AABDB700DBBE90 /* Sources */,
 				DBF5B03123AABDB700DBBE90 /* Frameworks */,
 				DBF5B03223AABDB700DBBE90 /* Resources */,
+				09265D998E70E2A2FE067E5D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,6 +227,7 @@
 					};
 					DBF5B03323AABDB700DBBE90 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = DBF5B01F23AABDB500DBBE90;
 					};
 				};
@@ -270,6 +272,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		09265D998E70E2A2FE067E5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestTMBDTests/Pods-TestTMBDTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestTMBDTests/Pods-TestTMBDTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestTMBDTests/Pods-TestTMBDTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		37B54B3820825A29D992BD5B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,7 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBF5B03923AABDB700DBBE90 /* TestTMBDTests.swift in Sources */,
+				DB94D98E23D0D72E00617C30 /* TMDB_Teste.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,8 +570,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YCKSQEZ843;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestTMBDTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -561,6 +581,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = thiagoApps.TestTMBDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestTMBD.app/TestTMBD";
@@ -573,8 +594,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YCKSQEZ843;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestTMBDTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

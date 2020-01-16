@@ -16,16 +16,18 @@ class MoviesTableViewController: UITableViewController {
     
     var moviesSearch: [Movie] = []
     var isTopMovie = true
-      var i = 2
+    var i = 2
+    var text = ""
     @IBOutlet weak var searchBar: UISearchBar!
   
     @IBAction func loadNextMovies(_ sender: Any) {
+      
         if isTopMovie == true {
         presenter.moviesList(page: i)
         i+=1
         tableView.reloadData()
         } else {
-                presenter.searchMovie(text: searchBar.text!, page: i)
+            presenter.searchMovie(text: self.text ?? "nada", page: i)
             i+=1
             tableView.reloadData()
         }
@@ -83,7 +85,8 @@ class MoviesTableViewController: UITableViewController {
 extension MoviesTableViewController: MoviesListView {
     
     func showSearchMovie(searchedMovie: [Movie]) {
-        movies = searchedMovie
+       movies.removeAll()
+        movies.append(contentsOf: searchedMovie)
         self.tableView.reloadData()
     }
     

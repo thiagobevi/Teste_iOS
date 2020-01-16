@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		cEmy8d/IiHZSSg9J4YBJJFd20ww=
+		jPs2BfY7qxMVwgkGkrVS0AoHicA=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		yuv+qgR2aUHLthRMBuMnUpZLT2c=
+		+M0yU50v4W57WHUocdVa5LlOU3U=
 		</data>
 		<key>Base.lproj/Main.storyboardc/DetailsViewController.nib</key>
 		<data>
-		lCEd0Yqg0NLy0fdU3vKgRImUcRc=
+		edVSJbboh+P+iyoqbLL7dq/G39E=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		0QTNJWCxkedzRHfMHlZySMm3Vas=
+		aZ00tnOoI6Kym5MlEnooKJa0dPY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-kFh-z7-aqd.nib</key>
 		<data>
-		uzm3QFNcTrOvBqFghfqoKxX/VHY=
+		677hdDREg+Q8ui+Y0m01mSMonRE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/dUS-j9-e2h-view-A7L-5f-Pua.nib</key>
 		<data>
-		nYI9SC7MxSYf9x0VpjEVywmoJ+4=
+		hITJdzcpAPIYJDttUWZDRfnllUo=
 		</data>
 		<key>Base.lproj/Main.storyboardc/hg2-Tx-Ebx-view-8Va-fA-5ZU.nib</key>
 		<data>
-		QQrlcvuyBupjmVNHttHc0mq84Mg=
+		t27rrhC0FL3l50Z0XXC81U0MnUI=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
-		PKtrO51hFq07v9uQwHX2DujcuOg=
+		cqa4JdKojiS5R23xE+HExDdgL0U=
 		</data>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/Kingfisher.framework/Kingfisher</key>
 		<data>
-		85QebCs88sXjUq6J1ibBhXmlS2g=
+		KzmIWB3YD13vibRv7vRWRV6z1A4=
 		</data>
 		<key>Frameworks/Kingfisher.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -68,6 +68,34 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Nimble.framework/Info.plist</key>
+		<data>
+		3k/LEPKB4oThHeNEAja1f7LU/c4=
+		</data>
+		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Nimble.framework/Nimble</key>
+		<data>
+		+cvLXetbvoaaHksCAAIee/vmGlA=
+		</data>
+		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Nimble.framework/_CodeSignature/CodeResources</key>
+		<data>
+		PxlGAlbzfC+gtAKKzXsNFVa0FQQ=
+		</data>
+		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Quick.framework/Info.plist</key>
+		<data>
+		PSnyetkfdvRqwwu0VMO3giFpSOc=
+		</data>
+		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Quick.framework/Quick</key>
+		<data>
+		X+bk9C1aQ2V9urFkWOqszNk8V7U=
+		</data>
+		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Quick.framework/_CodeSignature/CodeResources</key>
+		<data>
+		P+2DOY0h5ylia0jH5M9mt0gH0mQ=
+		</data>
+		<key>PlugIns/TestTMBDTests.xctest/Info.plist</key>
+		<data>
+		1buXlKwAr4+c95J8b0mQxZgY9lQ=
+		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
 		q9bYp2Hq3VAApWCW4DIcp8hu09M=
@@ -79,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cu0FQyAfOnMxNqcZWQZicwKDU7ReBRfW09zRUnb0opo=
+			bssP1ECKE7AXTKOx4ZDzgThPmX7b3xJLSfn1+G29cJA=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -93,49 +121,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SbH4xZ/KLI1MHiYpSXc3s57Djbzo9k78VdiM+973FY4=
+			99aahsmcZhAPDsS+6qnTzYEp62XBPkxGE8z5dMq3HOU=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/DetailsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LI9xhxrA2SZ3OhdmifU4aTBZNHqzDbUsJNeoy5hhpNs=
+			iRGZHa7I8wIlBzupQIWonRqqg2jzRm7ZrgT3uqDtnI0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3DiAGMK1nYkLbRi4MDsK/pchBJLKiKnmBw5IuwIIyRo=
+			wY2lOqvHxrp5WEen7+aZtPlNN5m4CgNRa8+Rbx0srYU=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-kFh-z7-aqd.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+MY9STtEb03khDkUqf5y2GJzqo13KDXqQ3mkIyKPStI=
+			J0iBd4NPqodE0whhYsbMxqcUPHZwX0ONTDkY2prh+JI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/dUS-j9-e2h-view-A7L-5f-Pua.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+qHybNHrOJy84Vq1xBHz45ysH9Wt3HaUn5KoAsjVnCk=
+			EmGDyAbxznxgF/0QSu9G/eKnsdFIalbVb9AYQVIHN/k=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/hg2-Tx-Ebx-view-8Va-fA-5ZU.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wyvZ+iAe6MJD4c1NT1TxGbvyRW5vhevjNy1SkgjDEio=
+			0AnDdZPF6EclxlJ0+1fQ9QBlxIwu8fn+DgCuQTqi/8c=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FuLEVy2bQUptJzdgdNXbUFQWxy0aJq83BNqxwnsm2Zo=
+			Zepd7qavkJw2aVMqYU3jwQ4CSJbBGgbpq1IvlzSlptQ=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
@@ -163,7 +191,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C24imZSSks0jzUoIxfTyRRNouOAxxxrIdLLF7Nyuyx0=
+			A/7FOAXgPVU15mCOaAOr2ludO2IXK5v5aO2plNMUgZo=
 			</data>
 		</dict>
 		<key>Frameworks/Kingfisher.framework/_CodeSignature/CodeResources</key>
@@ -171,6 +199,55 @@
 			<key>hash2</key>
 			<data>
 			K8dndsznx6dXJYqN8WT62bG9EaHlfjrFfj8bFVle4tQ=
+			</data>
+		</dict>
+		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Nimble.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3QbqOE0RIeS7ctFBBhk6Z4IPHK84wfwz4UEUKQxOTrs=
+			</data>
+		</dict>
+		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Nimble.framework/Nimble</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			x39xx07ZZH1BR9QFNx8u9o3SNbE9jZcLu7t+JtcBjqc=
+			</data>
+		</dict>
+		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Nimble.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HCaumqaL1KwAJ1kM57JNnqoTUdkGeg/o7TsjxzrFZqM=
+			</data>
+		</dict>
+		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Quick.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sZJtelXjwGzQIHCdkuA/NZKp4mLCrMG2yBLvYZRSWyM=
+			</data>
+		</dict>
+		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Quick.framework/Quick</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6MHXvVF9muwD884OgOpPqhRxNZPtJaphTv1ge6WwpRc=
+			</data>
+		</dict>
+		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Quick.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PTF/EynPcbfh7ol+72QsNOPJslfdGELyDbyVpY9HyWA=
+			</data>
+		</dict>
+		<key>PlugIns/TestTMBDTests.xctest/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			USWq4R9ZylpJmRDdBJG0KzXU3W8dCdKRYlf5W3L+s5M=
 			</data>
 		</dict>
 		<key>libswiftRemoteMirror.dylib</key>

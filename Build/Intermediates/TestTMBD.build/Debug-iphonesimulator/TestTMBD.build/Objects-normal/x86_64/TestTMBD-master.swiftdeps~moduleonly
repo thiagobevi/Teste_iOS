@@ -1,12 +1,12 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
-options: "88d7dd4bd3026e63fd00179f2dfb5d97"
-build_time: [1579022174, 492348000]
+options: "9e9f328c7a187b9c6a89b8af7a23d187"
+build_time: [1579195967, 700838000]
 inputs:
-  "/Users/ThiagoBevi/Downloads/Teste_iOS-TesteiOS_BASE_API/TestTMBD/TestTMBD/Model/MovieModel.swift": [1577993173, 591809051]
-  "/Users/ThiagoBevi/Downloads/Teste_iOS-TesteiOS_BASE_API/TestTMBD/TestTMBD/MoviesList/MoviesTableViewController.swift": [1579022174, 400119539]
-  "/Users/ThiagoBevi/Downloads/Teste_iOS-TesteiOS_BASE_API/TestTMBD/TestTMBD/MoviesList/MoviesListView.swift": [1579021353, 126764755]
-  "/Users/ThiagoBevi/Downloads/Teste_iOS-TesteiOS_BASE_API/TestTMBD/TestTMBD/MovieDetails/DetailsViewController.swift": [1577711712, 0]
-  "/Users/ThiagoBevi/Downloads/Teste_iOS-TesteiOS_BASE_API/TestTMBD/TestTMBD/MoviesList/MoviesListPresenter.swift": [1579021453, 119792405]
-  "/Users/ThiagoBevi/Downloads/Teste_iOS-TesteiOS_BASE_API/TestTMBD/TestTMBD/MoviesList/MoviesListService.swift": [1579022174, 378648124]
-  "/Users/ThiagoBevi/Downloads/Teste_iOS-TesteiOS_BASE_API/TestTMBD/TestTMBD/Model/TableViewCell.swift": [1577988905, 210284977]
-  "/Users/ThiagoBevi/Downloads/Teste_iOS-TesteiOS_BASE_API/TestTMBD/TestTMBD/AppDelegate.swift": [1577711712, 0]
+  "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/Model/MovieModel.swift": [1579182703, 17507822]
+  "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/MoviesList/MoviesTableViewController.swift": [1579194477, 907662530]
+  "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/MoviesList/MoviesListView.swift": [1579182703, 67306534]
+  "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/MovieDetails/DetailsViewController.swift": [1579182703, 64550399]
+  "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/MoviesList/MoviesListPresenter.swift": [1579185016, 849165301]
+  "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/MoviesList/MoviesListService.swift": [1579184877, 824127430]
+  "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/Model/TableViewCell.swift": [1579182703, 16570773]
+  "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/AppDelegate.swift": [1579182703, 18567318]
