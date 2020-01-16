@@ -14,6 +14,7 @@ class Cell: UITableViewCell {
     @IBOutlet weak var titlteCell: UILabel!
     @IBOutlet weak var idCell: UILabel!
     @IBOutlet weak var releaseCell: UILabel!
+    @IBOutlet weak var voteCell: UILabel!
     
     @IBOutlet weak var imageCell: UIImageView!
     

@@ -14,4 +14,5 @@ protocol MoviesListView {
     func showMoviesList(moviesOk: [Movie])
     func showDetails(movie: Movie)
     func searchMovie(text: String)
+    func showSearchMovie(searchedMovie: [Movie])
 }

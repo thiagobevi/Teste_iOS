@@ -14,16 +14,15 @@ protocol RequestAuthPresentable {
 }
 
 protocol RequestMoviesListPresentable {
-    func moviesList()
+    func moviesList(page: Int)
 }
 
 class MoviesListPresenter: RequestAuthPresentable, RequestMoviesListPresentable {
-    var movies: [Movie]?
     
     private var moviesView: MoviesListView?
     // private var serviceProtocol: MovieListServiceProtocol
     var serviceClass: MoviesListService
-    var vc: MoviesTableViewController?
+  
     
     init(service: MovieListServiceProtocol, serviceClass: MoviesListService ) {
         // self.serviceProtocol = service
@@ -46,8 +45,8 @@ class MoviesListPresenter: RequestAuthPresentable, RequestMoviesListPresentable 
         }
     }
     
-    func moviesList() {
-        serviceClass.moviesList { [weak self] result in
+    func moviesList(page: Int) {
+        serviceClass.moviesList(page: page) { [weak self] result in
             self?.moviesView?.showMoviesList(moviesOk: result!.results)
         }
     }
@@ -58,7 +57,9 @@ class MoviesListPresenter: RequestAuthPresentable, RequestMoviesListPresentable 
                 return
             }
             
-            self?.moviesView?.showMoviesList(moviesOk: result!.results)
+            self?.moviesView?.showSearchMovie(searchedMovie: result!.results) //(moviesOk: result!.results)
         }
     }
+    
+    
 }
