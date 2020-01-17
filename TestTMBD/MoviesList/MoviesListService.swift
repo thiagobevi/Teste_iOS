@@ -20,7 +20,7 @@ class MoviesListService: MovieListServiceProtocol {
         
     }
     
-    var movies: [Movie]?
+    //var movies: [Movie]?
     var token: Token?
     let headers = ["content-type": "application/json"]
     let parameters = [

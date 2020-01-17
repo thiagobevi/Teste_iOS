@@ -60,6 +60,67 @@
 		<data>
 		j1DS+Y/xQFt7xQP6aKJo8pngP94=
 		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
+		<data>
+		XEMM1zNUjIjoF0oBCcAoFlMj/78=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport</key>
+		<data>
+		egBbStiL5ljoX4Klgz/5f/DHKws=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/XPCServices/LogArchiveCollector.xpc/Info.plist</key>
+		<data>
+		5yml+i3PuOPSU3eVOvq7K7lWJzs=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/XPCServices/LogArchiveCollector.xpc/LogArchiveCollector</key>
+		<data>
+		ZXXOv+WBftwWpHKn3fM1zAoUhOo=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/XPCServices/LogArchiveCollector.xpc/_CodeSignature/CodeResources</key>
+		<data>
+		4op4bZbgPB2K37WVJQSxMkcPNLs=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/XPCServices/LogArchiveCollector.xpc/version.plist</key>
+		<data>
+		fkxPTBeBKL+JW7TF4rdXvkccNLs=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources</key>
+		<data>
+		cAK5mpC3HwxYO5OXpTFXh+w3c2Y=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/version.plist</key>
+		<data>
+		jbKC2b+KYpjXh2qm/yVPxp6oxXU=
+		</data>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<data>
+		ZYYXrlSp6znc2cHkHxyB8TaaHBs=
+		</data>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<data>
+		KFe+gDm+yALzEOD36ZA5084ls8A=
+		</data>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<data>
+		M13E8vfB/VgwEFXqpsN3CG++92g=
+		</data>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<data>
+		jbKC2b+KYpjXh2qm/yVPxp6oxXU=
+		</data>
+		<key>Frameworks/libXCTestBundleInject.dylib</key>
+		<data>
+		no2V+L990CqA7SYiuPU2YMyW47w=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		SlDvw2fvZ/JYw2vNUjHYHONGsvU=
@@ -92,9 +153,25 @@
 		<data>
 		P+2DOY0h5ylia0jH5M9mt0gH0mQ=
 		</data>
+		<key>PlugIns/TestTMBDTests.xctest/Frameworks/libswiftXCTest.dylib</key>
+		<data>
+		+SO9LkQQlpJU3c9viKyPGlUVS3k=
+		</data>
 		<key>PlugIns/TestTMBDTests.xctest/Info.plist</key>
 		<data>
 		1buXlKwAr4+c95J8b0mQxZgY9lQ=
+		</data>
+		<key>PlugIns/TestTMBDTests.xctest/TestTMBDTests</key>
+		<data>
+		GVphoGyTFbWlwAS4BgZiC6P83pQ=
+		</data>
+		<key>PlugIns/TestTMBDTests.xctest/_CodeSignature/CodeResources</key>
+		<data>
+		QjoAesx9SKOt0APrs3ouz5j1D6E=
+		</data>
+		<key>PlugIns/TestTMBDTests.xctest/libswiftRemoteMirror.dylib</key>
+		<data>
+		q9bYp2Hq3VAApWCW4DIcp8hu09M=
 		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
@@ -201,6 +278,106 @@
 			K8dndsznx6dXJYqN8WT62bG9EaHlfjrFfj8bFVle4tQ=
 			</data>
 		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RrOmhIGirQY1aEYuX35PZtMcnAhBUDeNtmDJW/QdHu8=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			k0odZg8TqSaW3F+Wxcsd/4TfZgoVAJY/FsXDiVa4dMg=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/XPCServices/LogArchiveCollector.xpc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xWHq5+Yplhdf34qFL2gP0niNERMDOnrTTMdCzrNlUdc=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/XPCServices/LogArchiveCollector.xpc/LogArchiveCollector</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JeulmuP7CZ0DZBpr+vWpx9V0TzfJU17spX0LU0tv+U4=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/XPCServices/LogArchiveCollector.xpc/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UF88NiRq8n3oiJLZ1csoSl29esMCY7yJ9yo70/HUTYM=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/XPCServices/LogArchiveCollector.xpc/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vl8hH4Rh02SwF60e0KOkdDXdu4asjotsFb26iGfbPG0=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3Car9dP1GQVRpPXsdWacgABV2SN7slaCBO2nl/55Iuo=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Q7ZYLt2wkcLeyL+1t2D9/nX047oeBQP5aoTBux/xecU=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			snVQYPElgt1HK6aEfmfKq/9jiXrNKhdcImZTT1Jt5ac=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v3jcAkNVlxj78GQHyDeUW0ekJD9lOWaMJcVpo6KlBW0=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eLesS9RVUyWT5BpDudbpIQKv+Xm0YkJbe/GTU09SLLw=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			89RGkjZaKuewYnjpzwhIswhqfrU8+pcEXqM/DHVrUmo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Q7ZYLt2wkcLeyL+1t2D9/nX047oeBQP5aoTBux/xecU=
+			</data>
+		</dict>
+		<key>Frameworks/libXCTestBundleInject.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gI4WnkFhB/fAk/cKiE1cqcVpo/iwxL+xuuPY0kk7JAM=
+			</data>
+		</dict>
 		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Nimble.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -243,11 +420,39 @@
 			PTF/EynPcbfh7ol+72QsNOPJslfdGELyDbyVpY9HyWA=
 			</data>
 		</dict>
+		<key>PlugIns/TestTMBDTests.xctest/Frameworks/libswiftXCTest.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mBbP/OXJYldjnymvP6sAJhIJSQclbZREdbim8ALILW4=
+			</data>
+		</dict>
 		<key>PlugIns/TestTMBDTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			USWq4R9ZylpJmRDdBJG0KzXU3W8dCdKRYlf5W3L+s5M=
+			</data>
+		</dict>
+		<key>PlugIns/TestTMBDTests.xctest/TestTMBDTests</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ly53/kW3ZLPx1WQqO/Ij08M+6lT8cA3G9Bzi6d1YA8Q=
+			</data>
+		</dict>
+		<key>PlugIns/TestTMBDTests.xctest/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A3Cry+mrI6uE8+UGHdorRxjTrNvZsWWlbBKjgTNkvss=
+			</data>
+		</dict>
+		<key>PlugIns/TestTMBDTests.xctest/libswiftRemoteMirror.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			e0a+/f2FJbrH7memHu1eCpwtlpkd1uvrw7pC3H5Ks6c=
 			</data>
 		</dict>
 		<key>libswiftRemoteMirror.dylib</key>

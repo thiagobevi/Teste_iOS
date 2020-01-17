@@ -52,7 +52,7 @@ class MoviesListPresenter: RequestAuthPresentable, RequestMoviesListPresentable 
     }
     
     func searchMovie(text: String, page: Int) {
-        serviceClass.searchMovieData(text: text, page: page) { [weak self] result in
+         serviceClass.searchMovieData(text: text, page: page) { [weak self] result in
             guard result != nil else {
                 return
             }

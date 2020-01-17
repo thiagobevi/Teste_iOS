@@ -10,6 +10,7 @@
 		35697B833E2C1875FA857664 /* Pods_TestTMBDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69EA94043B5F75217450763A /* Pods_TestTMBDTests.framework */; };
 		DB0DAF67C171E7D8EECE0623 /* Pods_TestTMBD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0316BD3B397406145F1B3861 /* Pods_TestTMBD.framework */; };
 		DB94D98E23D0D72E00617C30 /* TMDB_Teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94D98D23D0D72E00617C30 /* TMDB_Teste.swift */; };
+		DB94D99023D0DFBE00617C30 /* MoviesListPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94D98F23D0DFBE00617C30 /* MoviesListPresenterTest.swift */; };
 		DBB5ECFC23BA3DF500BD1996 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB5ECFB23BA3DF500BD1996 /* DetailsViewController.swift */; };
 		DBF5B02423AABDB500DBBE90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF5B02323AABDB500DBBE90 /* AppDelegate.swift */; };
 		DBF5B02923AABDB500DBBE90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF5B02723AABDB500DBBE90 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		8180F3B6EB1408EC921F47A9 /* Pods-TestTMBD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTMBD.debug.xcconfig"; path = "Target Support Files/Pods-TestTMBD/Pods-TestTMBD.debug.xcconfig"; sourceTree = "<group>"; };
 		9782CC792B9CCA8E6BB0C288 /* Pods-TestTMBDTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTMBDTests.debug.xcconfig"; path = "Target Support Files/Pods-TestTMBDTests/Pods-TestTMBDTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DB94D98D23D0D72E00617C30 /* TMDB_Teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_Teste.swift; sourceTree = "<group>"; };
+		DB94D98F23D0DFBE00617C30 /* MoviesListPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListPresenterTest.swift; sourceTree = "<group>"; };
 		DBB5ECFB23BA3DF500BD1996 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		DBF5B02023AABDB500DBBE90 /* TestTMBD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTMBD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF5B02323AABDB500DBBE90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			children = (
 				DBF5B03A23AABDB700DBBE90 /* Info.plist */,
 				DB94D98D23D0D72E00617C30 /* TMDB_Teste.swift */,
+				DB94D98F23D0DFBE00617C30 /* MoviesListPresenterTest.swift */,
 			);
 			path = TestTMBDTests;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB94D98E23D0D72E00617C30 /* TMDB_Teste.swift in Sources */,
+				DB94D99023D0DFBE00617C30 /* MoviesListPresenterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

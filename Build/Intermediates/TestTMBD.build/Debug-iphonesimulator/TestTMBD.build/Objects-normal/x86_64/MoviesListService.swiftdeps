@@ -22,7 +22,6 @@ depends-top-level:
 - "Int"
 - !private "IntegerLiteralType"
 - !private "JSONDecoder"
-- "Movie"
 - "MovieListServiceProtocol"
 - "MovieResponse"
 - "MoviesListService"
@@ -150,7 +149,6 @@ depends-member:
 - !private ["8TestTMBD17MoviesListServiceC", "Alamofire"]
 - ["8TestTMBD17MoviesListServiceC", "Int"]
 - !private ["8TestTMBD17MoviesListServiceC", "JSONDecoder"]
-- ["8TestTMBD17MoviesListServiceC", "Movie"]
 - ["8TestTMBD17MoviesListServiceC", "MovieResponse"]
 - ["8TestTMBD17MoviesListServiceC", "Parameters"]
 - ["8TestTMBD17MoviesListServiceC", "String"]
@@ -158,7 +156,6 @@ depends-member:
 - ["8TestTMBD17MoviesListServiceC", "deinit"]
 - ["8TestTMBD17MoviesListServiceC", "headers"]
 - ["8TestTMBD17MoviesListServiceC", "init"]
-- ["8TestTMBD17MoviesListServiceC", "movies"]
 - ["8TestTMBD17MoviesListServiceC", "moviesList"]
 - ["8TestTMBD17MoviesListServiceC", "parameters"]
 - ["8TestTMBD17MoviesListServiceC", "popularURL"]
@@ -296,4 +293,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "c3fa74a12cb390df0ab27cfb14f71198"
+interface-hash: "837eae94cc313f97ab22530e675df2d3"
