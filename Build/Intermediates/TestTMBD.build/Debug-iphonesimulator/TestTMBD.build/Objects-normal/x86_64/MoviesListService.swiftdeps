@@ -138,13 +138,14 @@ depends-member:
 - !private ["8TestTMBD24MovieListServiceProtocolP", "JSONDecoder"]
 - ["8TestTMBD24MovieListServiceProtocolP", "MovieResponse"]
 - ["8TestTMBD24MovieListServiceProtocolP", "Parameters"]
-- !private ["8TestTMBD24MovieListServiceProtocolP", "String"]
+- ["8TestTMBD24MovieListServiceProtocolP", "String"]
 - ["8TestTMBD24MovieListServiceProtocolP", "Token"]
 - ["8TestTMBD24MovieListServiceProtocolP", ""]
 - ["8TestTMBD24MovieListServiceProtocolP", "moviesList"]
 - !private ["8TestTMBD24MovieListServiceProtocolP", "popularURL"]
 - !private ["8TestTMBD24MovieListServiceProtocolP", "print"]
 - ["8TestTMBD24MovieListServiceProtocolP", "requestAuth"]
+- ["8TestTMBD24MovieListServiceProtocolP", "searchMovieData"]
 - !private ["8TestTMBD13MovieResponseV", "deinit"]
 - !private ["8TestTMBD17MoviesListServiceC", "Alamofire"]
 - ["8TestTMBD17MoviesListServiceC", "Int"]
@@ -157,7 +158,6 @@ depends-member:
 - ["8TestTMBD17MoviesListServiceC", "headers"]
 - ["8TestTMBD17MoviesListServiceC", "init"]
 - ["8TestTMBD17MoviesListServiceC", "moviesList"]
-- ["8TestTMBD17MoviesListServiceC", "parameters"]
 - ["8TestTMBD17MoviesListServiceC", "popularURL"]
 - !private ["8TestTMBD17MoviesListServiceC", "print"]
 - ["8TestTMBD17MoviesListServiceC", "requestAuth"]
@@ -293,4 +293,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "837eae94cc313f97ab22530e675df2d3"
+interface-hash: "70defeff2887666f9e12f8642fa7bffd"

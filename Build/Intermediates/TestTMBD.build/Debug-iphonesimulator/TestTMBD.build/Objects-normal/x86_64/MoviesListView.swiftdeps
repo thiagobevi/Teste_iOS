@@ -14,7 +14,6 @@ depends-member:
 - ["8TestTMBD14MoviesListViewP", "Movie"]
 - ["8TestTMBD14MoviesListViewP", "String"]
 - ["8TestTMBD14MoviesListViewP", "moviesList"]
-- ["8TestTMBD14MoviesListViewP", "requestAuth"]
 - ["8TestTMBD14MoviesListViewP", "searchMovie"]
 - ["8TestTMBD14MoviesListViewP", "showDetails"]
 - ["8TestTMBD14MoviesListViewP", "showMoviesList"]
@@ -66,4 +65,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "627906f27c8b30c25b8c4b0f1811dee8"
+interface-hash: "c614d861987e0de5878bf3fa12cd298d"

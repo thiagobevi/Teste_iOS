@@ -9,10 +9,10 @@
 import Foundation
 
 protocol MoviesListView {
-    func requestAuth()
     func moviesList()
     func showMoviesList(moviesOk: [Movie])
     func showDetails(movie: Movie)
     func searchMovie(text: String)
     func showSearchMovie(searchedMovie: [Movie])
+    
 }

@@ -10,39 +10,48 @@ import UIKit
 import Kingfisher
 class MoviesTableViewController: UITableViewController {
     
-    var searchController: UISearchController?
-    var presenter = MoviesListPresenter(service: MoviesListService(), serviceClass: MoviesListService())
-    var movies: [Movie] = []
+    @IBOutlet weak var searchBar: UISearchBar!
     
+    var searchController: UISearchController?
+    var presenter: MoviesListPresenter?
+    var movies: [Movie] = []
     var moviesSearch: [Movie] = []
     var isTopMovie = true
     var i = 2
     var text = ""
-    @IBOutlet weak var searchBar: UISearchBar!
-  
+    
+    // MARK: Life Cycle
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        presenter = MoviesListPresenter(service: MoviesListService())
+        configureSearchController()
+        presenter?.moviesList(page: 1)
+        presenter?.atatchView(view: self)
+    }
+    
+    // MARK: IBActions
+    
     @IBAction func loadNextMovies(_ sender: Any) {
-      
+        
         if isTopMovie == true {
-        presenter.moviesList(page: i)
-        i+=1
-        tableView.reloadData()
+            presenter?.moviesList(page: i)
+            i+=1
+            tableView.reloadData()
         } else {
-            presenter.searchMovie(text: self.text ?? "nada", page: i)
+            
+            presenter?.searchMovie(text: text , page: i)
             i+=1
             tableView.reloadData()
         }
     }
     
-    override func viewDidLoad() {
-        
-        super.viewDidLoad()
-        configureSearchController()
-        presenter.attachView(view: self)
-        presenter.requestAuth()
-        presenter.moviesList(page: 1)
-    }
+}
+
+// MARK: - UITableViewDelegate & UITableViewDataSource
+
+extension MoviesTableViewController {
     
-    // MARK: - Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -58,7 +67,7 @@ class MoviesTableViewController: UITableViewController {
             cell.imageCell?.kf.indicatorType = .activity
             cell.imageCell?.kf.setImage(with: resource)
         }
-
+        
         // Configure the cell...
         cell.titlteCell.text = movies[indexPath.row].title
         cell.idCell.text = "\(movies[indexPath.row].id ?? 0)"
@@ -73,19 +82,23 @@ class MoviesTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        showDetails(movie: (movies[indexPath.row]))
+        let movie = movies[indexPath.row]
+        presenter?.didSelectMovie(movie: movie)
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return "Most Popular Movies"
     }
-
- 
+    
 }
+
 extension MoviesTableViewController: MoviesListView {
+    func attachView(view: MoviesListView) {
+        
+    }
+    
     
     func showSearchMovie(searchedMovie: [Movie]) {
-       movies.removeAll()
         movies.append(contentsOf: searchedMovie)
         self.tableView.reloadData()
     }
@@ -133,15 +146,16 @@ extension MoviesTableViewController: UISearchResultsUpdating, UISearchBarDelegat
     }
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        movies.removeAll()
         isTopMovie = false
         let text = searchBar.text
-        presenter.searchMovie(text: text!, page: 1)
+        presenter?.searchMovie(text: text!, page: 1)
         
     }
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         movies.removeAll()
-        presenter.moviesList(page: 1)
+        presenter?.moviesList(page: 1)
         tableView.reloadData()
     }
 }

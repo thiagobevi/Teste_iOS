@@ -16,7 +16,7 @@ final class MoviesListPresenterTeste: QuickSpec {
     
     override func spec() {
         
-        var sut: MoviesListPresenter!
+        var sut: MoviesListPresentable!
         var service: MoviesListServiceSpy!
         var view: MoviesListViewSpy!
         
@@ -25,8 +25,7 @@ final class MoviesListPresenterTeste: QuickSpec {
             beforeEach {
                 service = MoviesListServiceSpy()
                 view = MoviesListViewSpy()
-                sut = MoviesListPresenter(service: service, serviceClass: service!)
-                sut.attachView(view: view)
+                sut = MoviesListPresenter(service: service)
             }
             
             describe("When user open`s the app") {
@@ -38,79 +37,57 @@ final class MoviesListPresenterTeste: QuickSpec {
                     }
                     
                     it("then should be loaded a most popular movies list") {
-                        expect(view.showMoviesList(moviesOk: movies)).to(beTrue())
-                    }
-                    
-                    it("Must contain 20 movies on list") {
-                        
-                    }
-                    
-                    it("Must be loaded the movie image in each cell") {
-                        
-                    }
-                    
-                    it("When cell is tapped, must show Details Movie View") {
-                        
-                    }
-                    
-                    it("When scroll-up SearchBar is visible") {
-                        
-                    }
-                    
-                    it("When Scroll-down Load More Movies button is visible") {
-                        
-                    }
-                    
-                    context("Tap Load More Movies button") {
-                        
-                        it("Should apend more 20 movies to array")  {
-                            
-                        }
-                        
-                        it("Must bring results from next API endpoint page") {
-                            
-                        }
-                    }
-                    
-                    context("Just Tap SearchBar") {
-                        
-                        it("Keyboard must be showed") {
-                            
-                        }
-                        
-                        it("Search button must be inative") {
-                            
-                        }
-                    }
-                    
-                    context("Type a valid movie on SearchBar text field") {
-                        
-                        it("Search button must be active") {
-                            
-                        }
-                        
-                        it("Must return movie list that contains the typed text") {
-                            
-                        }
-                        
-                        it("Must append result at searchedMovies array") {
-                            
-                        }
-                    }
-                    
-                    context("Tap Cancel button after returns Search movie list") {
-                        
-                        it("Must removeAll from movies array") {
-                            
-                        }
-                        
-                        it("Should do a new request on Popular Movies endpoint") {
-                            
-                        }
-                        
-                        
+                        expect(view.movies?.isEmpty).to(beFalse())
                     }
                 }
+                
+                describe("When cell is tapped, must show Details Movie View") {
+                
+                    it("then should present detail view") {
+                        sut.didSelectMovie(movie: Movie(title: "title value", id: 0, release_date: nil, overview: nil, vote_average: nil, poster_path: nil, backdrop_path: nil))
+                        
+                        expect(view.showDetailsCalled).to(beTrue())
+                        expect(view.moviePassed?.title) == "title value"
+                    }
+                
+                }
+            
+                    
+                describe("Tap Load More Movies button") {
+
+                        it("Should apend more movies to array")  {
+                            sut.moviesList(page: 2)
+                        }
+
+
+                    }
+//
+//
+//                    context("Type a valid movie on SearchBar text field") {
+//
+//
+//
+//                        it("Must return movie list that contains the typed text") {
+//
+//                        }
+//
+//                        it("Must append result at searchedMovies array") {
+//
+//                        }
+//                    }
+//
+//                    context("Tap Cancel button after returns Search movie list") {
+//
+//                        it("Must removeAll from movies array") {
+//
+//                        }
+//
+//                        it("Should do a new request on Popular Movies endpoint") {
+//
+//                        }
+//
+//
+//                    }
             }
         }
     }
@@ -119,6 +96,11 @@ final class MoviesListPresenterTeste: QuickSpec {
 
 
 private class MoviesListServiceSpy: MovieListServiceProtocol {
+   
+    func searchMovieData(text: String, page: Int, completion: @escaping (MovieResponse?) -> ()) {
+        
+    }
+    
     func requestAuth(parameters: Parameters, completion: @escaping (Token?) -> ()) {
         
     }
@@ -131,15 +113,12 @@ private class MoviesListServiceSpy: MovieListServiceProtocol {
         }
     }
     
-    
-    
-    
 }
 
 private class MoviesListViewSpy: MoviesListView {
     var showDetailsCalled: Bool?
-    var moviesPassed: Movie?
-    
+    var moviePassed: Movie?
+    var movies: [Movie]?
     
     func requestAuth() {
     }
@@ -148,12 +127,12 @@ private class MoviesListViewSpy: MoviesListView {
     }
     
     func showMoviesList(moviesOk: [Movie]) {
-        
+        movies = moviesOk
     }
     
     func showDetails(movie: Movie) {
         showDetailsCalled = true
-        moviesPassed = movie
+        moviePassed = movie
     }
     
     func searchMovie(text: String) {

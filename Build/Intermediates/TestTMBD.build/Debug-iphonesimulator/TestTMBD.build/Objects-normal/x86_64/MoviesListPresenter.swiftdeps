@@ -1,78 +1,64 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "RequestAuthPresentable"
-- "RequestMoviesListPresentable"
+- "MoviesListPresentable"
 - "MoviesListPresenter"
 provides-nominal:
-- "8TestTMBD22RequestAuthPresentableP"
-- "8TestTMBD28RequestMoviesListPresentableP"
+- "8TestTMBD21MoviesListPresentableP"
 - "8TestTMBD19MoviesListPresenterC"
 provides-member:
-- ["8TestTMBD22RequestAuthPresentableP", ""]
-- ["8TestTMBD28RequestMoviesListPresentableP", ""]
+- ["8TestTMBD21MoviesListPresentableP", ""]
 - ["8TestTMBD19MoviesListPresenterC", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - !private "!="
+- "AnyObject"
 - "AssignmentPrecedence"
 - "Int"
+- "Movie"
 - "MovieListServiceProtocol"
+- "MoviesListPresentable"
 - "MoviesListPresenter"
-- "MoviesListService"
 - "MoviesListView"
-- "RequestAuthPresentable"
-- "RequestMoviesListPresentable"
 - "String"
 depends-member:
 - !private ["Se", "results"]
 - !private ["SE", "results"]
 - !private ["8TestTMBD24MovieListServiceProtocolP", "moviesList"]
-- !private ["8TestTMBD24MovieListServiceProtocolP", "parameters"]
-- !private ["8TestTMBD24MovieListServiceProtocolP", "requestAuth"]
 - !private ["8TestTMBD24MovieListServiceProtocolP", "searchMovieData"]
 - !private ["8TestTMBD13MovieResponseV", "results"]
+- ["8TestTMBD21MoviesListPresentableP", "Int"]
+- ["8TestTMBD21MoviesListPresentableP", "Movie"]
+- ["8TestTMBD21MoviesListPresentableP", "String"]
+- ["8TestTMBD21MoviesListPresentableP", ""]
+- ["8TestTMBD21MoviesListPresentableP", "didSelectMovie"]
+- ["8TestTMBD21MoviesListPresentableP", "moviesList"]
+- !private ["8TestTMBD21MoviesListPresentableP", "moviesView"]
+- ["8TestTMBD21MoviesListPresentableP", "searchMovie"]
+- !private ["8TestTMBD21MoviesListPresentableP", "serviceProtocol"]
 - ["8TestTMBD19MoviesListPresenterC", "Int"]
+- ["8TestTMBD19MoviesListPresenterC", "Movie"]
 - ["8TestTMBD19MoviesListPresenterC", "MovieListServiceProtocol"]
-- ["8TestTMBD19MoviesListPresenterC", "MoviesListService"]
 - ["8TestTMBD19MoviesListPresenterC", "MoviesListView"]
 - ["8TestTMBD19MoviesListPresenterC", "String"]
-- ["8TestTMBD19MoviesListPresenterC", "attachView"]
+- ["8TestTMBD19MoviesListPresenterC", "atatchView"]
 - ["8TestTMBD19MoviesListPresenterC", "deinit"]
+- ["8TestTMBD19MoviesListPresenterC", "didSelectMovie"]
 - ["8TestTMBD19MoviesListPresenterC", "init"]
 - ["8TestTMBD19MoviesListPresenterC", "moviesList"]
 - !private ["8TestTMBD19MoviesListPresenterC", "moviesView"]
-- ["8TestTMBD19MoviesListPresenterC", "requestAuth"]
 - ["8TestTMBD19MoviesListPresenterC", "searchMovie"]
-- ["8TestTMBD19MoviesListPresenterC", "serviceClass"]
-- !private ["8TestTMBD17MoviesListServiceC", "deinit"]
-- !private ["8TestTMBD17MoviesListServiceC", "moviesList"]
-- !private ["8TestTMBD17MoviesListServiceC", "parameters"]
-- !private ["8TestTMBD17MoviesListServiceC", "requestAuth"]
-- !private ["8TestTMBD17MoviesListServiceC", "searchMovieData"]
-- !private ["8TestTMBD14MoviesListViewP", "requestAuth"]
+- !private ["8TestTMBD19MoviesListPresenterC", "serviceProtocol"]
+- !private ["8TestTMBD14MoviesListViewP", "showDetails"]
 - !private ["8TestTMBD14MoviesListViewP", "showMoviesList"]
 - !private ["8TestTMBD14MoviesListViewP", "showSearchMovie"]
-- ["8TestTMBD22RequestAuthPresentableP", ""]
-- ["8TestTMBD22RequestAuthPresentableP", "moviesList"]
-- !private ["8TestTMBD22RequestAuthPresentableP", "moviesView"]
-- ["8TestTMBD22RequestAuthPresentableP", "requestAuth"]
-- !private ["8TestTMBD22RequestAuthPresentableP", "serviceClass"]
-- ["8TestTMBD28RequestMoviesListPresentableP", "Int"]
-- ["8TestTMBD28RequestMoviesListPresentableP", ""]
-- ["8TestTMBD28RequestMoviesListPresentableP", "moviesList"]
-- !private ["8TestTMBD28RequestMoviesListPresentableP", "moviesView"]
-- ["8TestTMBD28RequestMoviesListPresentableP", "requestAuth"]
-- !private ["8TestTMBD28RequestMoviesListPresentableP", "serviceClass"]
 depends-nominal:
 - !private "Se"
 - !private "SE"
 - !private "8TestTMBD24MovieListServiceProtocolP"
 - !private "8TestTMBD13MovieResponseV"
+- "8TestTMBD21MoviesListPresentableP"
 - "8TestTMBD19MoviesListPresenterC"
-- !private "8TestTMBD17MoviesListServiceC"
 - !private "8TestTMBD14MoviesListViewP"
-- "8TestTMBD22RequestAuthPresentableP"
-- "8TestTMBD28RequestMoviesListPresentableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
@@ -118,4 +104,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "20113b3eeba658abebd81f478007b4de"
+interface-hash: "eff7fca3a86c278d9d69ccce7c07e81a"

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		jPs2BfY7qxMVwgkGkrVS0AoHicA=
+		NQBgmspvOnsz8noWwU2UCeJllFQ=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		+M0yU50v4W57WHUocdVa5LlOU3U=
+		UQXkJG8lQiZPIGgTC/N8N3pyL2Q=
 		</data>
 		<key>Base.lproj/Main.storyboardc/DetailsViewController.nib</key>
 		<data>
-		edVSJbboh+P+iyoqbLL7dq/G39E=
+		fQP19BmZGusqNmxPRINlDrvDrpE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		aZ00tnOoI6Kym5MlEnooKJa0dPY=
+		0QTNJWCxkedzRHfMHlZySMm3Vas=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-kFh-z7-aqd.nib</key>
 		<data>
-		677hdDREg+Q8ui+Y0m01mSMonRE=
+		bu8Ec6a6ZgKrgX958oYvCbpioqg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/dUS-j9-e2h-view-A7L-5f-Pua.nib</key>
 		<data>
-		hITJdzcpAPIYJDttUWZDRfnllUo=
+		RYt+xGaXbPo/cZ+Yo2TjXhIS0gE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/hg2-Tx-Ebx-view-8Va-fA-5ZU.nib</key>
 		<data>
-		t27rrhC0FL3l50Z0XXC81U0MnUI=
+		1DAmANF1zFFky+iV5MiG88iusSE=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
-		cqa4JdKojiS5R23xE+HExDdgL0U=
+		UZx37LWsrRC7jjBLWmIadxYVy1Q=
 		</data>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/Kingfisher.framework/Kingfisher</key>
 		<data>
-		KzmIWB3YD13vibRv7vRWRV6z1A4=
+		zshmZgcDbVvEYXnyOw7Vum2Pb7E=
 		</data>
 		<key>Frameworks/Kingfisher.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -135,7 +135,7 @@
 		</data>
 		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Nimble.framework/Nimble</key>
 		<data>
-		+cvLXetbvoaaHksCAAIee/vmGlA=
+		9dSTE/RjLohkTeKJ2oht/776ieA=
 		</data>
 		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Nimble.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -147,7 +147,7 @@
 		</data>
 		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Quick.framework/Quick</key>
 		<data>
-		X+bk9C1aQ2V9urFkWOqszNk8V7U=
+		aoTfbJN7u2uBShzWcriChK8c1rY=
 		</data>
 		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Quick.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -163,11 +163,11 @@
 		</data>
 		<key>PlugIns/TestTMBDTests.xctest/TestTMBDTests</key>
 		<data>
-		GVphoGyTFbWlwAS4BgZiC6P83pQ=
+		tdhri+ct2ZOrI4+SKCkYDPOejJc=
 		</data>
 		<key>PlugIns/TestTMBDTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		QjoAesx9SKOt0APrs3ouz5j1D6E=
+		s4wbGuEtVU35yKN4nZvSO3Lyblg=
 		</data>
 		<key>PlugIns/TestTMBDTests.xctest/libswiftRemoteMirror.dylib</key>
 		<data>
@@ -184,7 +184,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bssP1ECKE7AXTKOx4ZDzgThPmX7b3xJLSfn1+G29cJA=
+			8fimXW3PUOx21dpQ8LhEuf2KEzFsUxJ4sw8z/B+mk4E=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -198,49 +198,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			99aahsmcZhAPDsS+6qnTzYEp62XBPkxGE8z5dMq3HOU=
+			eANrpafPK9/9MaTkWkIdcfP7XaxDjdkqMUJ3joieLsM=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/DetailsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iRGZHa7I8wIlBzupQIWonRqqg2jzRm7ZrgT3uqDtnI0=
+			b+qP8sUgsgFRZNp6ABc6yiT0vT+z2+lNoDe4ybiOKeE=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wY2lOqvHxrp5WEen7+aZtPlNN5m4CgNRa8+Rbx0srYU=
+			3DiAGMK1nYkLbRi4MDsK/pchBJLKiKnmBw5IuwIIyRo=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-kFh-z7-aqd.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J0iBd4NPqodE0whhYsbMxqcUPHZwX0ONTDkY2prh+JI=
+			OIo0YodHQ7Bi5IVj9VmsVPihvDeXi7QPpV3cTAvY7y0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/dUS-j9-e2h-view-A7L-5f-Pua.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EmGDyAbxznxgF/0QSu9G/eKnsdFIalbVb9AYQVIHN/k=
+			JFSqcAZUH6xz/Xm4F7mWZH8qWRtvB/EvU07Bwcaxqro=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/hg2-Tx-Ebx-view-8Va-fA-5ZU.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0AnDdZPF6EclxlJ0+1fQ9QBlxIwu8fn+DgCuQTqi/8c=
+			HTAcf4rWGiGR2QA8G8gEvLKHdSjj2pMeTOnh7VtUnYI=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zepd7qavkJw2aVMqYU3jwQ4CSJbBGgbpq1IvlzSlptQ=
+			zZB2sGwI7chdZTyQz7ta8sksr3fXUTHDVTRX2q4GqdI=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
@@ -268,7 +268,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A/7FOAXgPVU15mCOaAOr2ludO2IXK5v5aO2plNMUgZo=
+			z6Hihtu9BT9hYDGrl9uHoESc7hwLXLpH2ypg6mEHw08=
 			</data>
 		</dict>
 		<key>Frameworks/Kingfisher.framework/_CodeSignature/CodeResources</key>
@@ -389,7 +389,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x39xx07ZZH1BR9QFNx8u9o3SNbE9jZcLu7t+JtcBjqc=
+			BRTX61dum+Hwvuct40NCKo5iEEXupr7qLkkknh+u/4A=
 			</data>
 		</dict>
 		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Nimble.framework/_CodeSignature/CodeResources</key>
@@ -410,7 +410,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6MHXvVF9muwD884OgOpPqhRxNZPtJaphTv1ge6WwpRc=
+			8d4sxNuBFyjxAR+Pb926gaekPhVJvO+90Z/AsJz3slE=
 			</data>
 		</dict>
 		<key>PlugIns/TestTMBDTests.xctest/Frameworks/Quick.framework/_CodeSignature/CodeResources</key>
@@ -438,14 +438,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ly53/kW3ZLPx1WQqO/Ij08M+6lT8cA3G9Bzi6d1YA8Q=
+			lXpfvHU02SYRbygXS1XSzpBGomMS0a/75OyC9JBwUV0=
 			</data>
 		</dict>
 		<key>PlugIns/TestTMBDTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A3Cry+mrI6uE8+UGHdorRxjTrNvZsWWlbBKjgTNkvss=
+			Pei9c/2+qtivwzA9xMyo2YI/35RASwj3z+Qr+iqxh30=
 			</data>
 		</dict>
 		<key>PlugIns/TestTMBDTests.xctest/libswiftRemoteMirror.dylib</key>

@@ -9,50 +9,33 @@
 import UIKit
 import Alamofire
 
-protocol RequestAuthPresentable {
-    func requestAuth()
-}
-
-protocol RequestMoviesListPresentable {
+protocol MoviesListPresentable: class {
     func moviesList(page: Int)
+    func searchMovie(text: String, page: Int)
+    func didSelectMovie(movie: Movie)
 }
 
-class MoviesListPresenter: RequestAuthPresentable, RequestMoviesListPresentable {
+class MoviesListPresenter: MoviesListPresentable {
     
     private var moviesView: MoviesListView?
-    // private var serviceProtocol: MovieListServiceProtocol
-    var serviceClass: MoviesListService
-  
+    private var serviceProtocol: MovieListServiceProtocol
     
-    init(service: MovieListServiceProtocol, serviceClass: MoviesListService ) {
-        // self.serviceProtocol = service
-        self.serviceClass = serviceClass
+    init(service: MovieListServiceProtocol) {
+        self.serviceProtocol = service
     }
     
-    
-    func attachView(view: MoviesListView){
-        moviesView = view
-    }
-    
-    func requestAuth() {
-        let params = serviceClass.parameters
-        serviceClass.requestAuth(parameters: params) { [weak self] result in
-            guard result != nil else {
-                return
-            }
-            
-            self?.moviesView?.requestAuth()
-        }
+    func atatchView(view: MoviesListView) {
+          moviesView = view
     }
     
     func moviesList(page: Int) {
-        serviceClass.moviesList(page: page) { [weak self] result in
+        serviceProtocol.moviesList(page: page) { [weak self] result in
             self?.moviesView?.showMoviesList(moviesOk: result!.results)
         }
     }
     
     func searchMovie(text: String, page: Int) {
-         serviceClass.searchMovieData(text: text, page: page) { [weak self] result in
+         serviceProtocol.searchMovieData(text: text, page: page) { [weak self] result in
             guard result != nil else {
                 return
             }
@@ -61,5 +44,8 @@ class MoviesListPresenter: RequestAuthPresentable, RequestMoviesListPresentable 
         }
     }
     
+    func didSelectMovie(movie: Movie) {
+        moviesView?.showDetails(movie: movie)
+    }
     
 }
