@@ -148,8 +148,8 @@ extension MoviesTableViewController: UISearchResultsUpdating, UISearchBarDelegat
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         movies.removeAll()
         isTopMovie = false
-        let text = searchBar.text
-        presenter?.searchMovie(text: text!, page: 1)
+        self.text = searchBar.text!
+        presenter?.searchMovie(text: text, page: 1)
         
     }
     
