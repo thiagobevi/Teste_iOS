@@ -24,7 +24,6 @@ class MoviesTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        presenter = MoviesListPresenter(service: MoviesListService())
         configureSearchController()
         presenter?.moviesList(page: 1)
         presenter?.atatchView(view: self)
@@ -97,12 +96,10 @@ extension MoviesTableViewController: MoviesListView {
         
     }
     
-    
     func showSearchMovie(searchedMovie: [Movie]) {
         movies.append(contentsOf: searchedMovie)
         self.tableView.reloadData()
     }
-    
     
     func searchMovie(text: String) {
     }

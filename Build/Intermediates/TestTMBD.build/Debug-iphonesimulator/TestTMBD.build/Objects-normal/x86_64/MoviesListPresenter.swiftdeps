@@ -10,7 +10,6 @@ provides-member:
 - ["8TestTMBD19MoviesListPresenterC", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "!="
 - "AnyObject"
 - "AssignmentPrecedence"
 - "Int"
@@ -28,8 +27,10 @@ depends-member:
 - !private ["8TestTMBD13MovieResponseV", "results"]
 - ["8TestTMBD21MoviesListPresentableP", "Int"]
 - ["8TestTMBD21MoviesListPresentableP", "Movie"]
+- ["8TestTMBD21MoviesListPresentableP", "MoviesListView"]
 - ["8TestTMBD21MoviesListPresentableP", "String"]
 - ["8TestTMBD21MoviesListPresentableP", ""]
+- ["8TestTMBD21MoviesListPresentableP", "atatchView"]
 - ["8TestTMBD21MoviesListPresentableP", "didSelectMovie"]
 - ["8TestTMBD21MoviesListPresentableP", "moviesList"]
 - !private ["8TestTMBD21MoviesListPresentableP", "moviesView"]
@@ -104,4 +105,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "eff7fca3a86c278d9d69ccce7c07e81a"
+interface-hash: "f40c4b2a88b532684c49ba3a2b691cf4"

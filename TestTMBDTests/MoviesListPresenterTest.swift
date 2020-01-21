@@ -26,6 +26,7 @@ final class MoviesListPresenterTeste: QuickSpec {
                 service = MoviesListServiceSpy()
                 view = MoviesListViewSpy()
                 sut = MoviesListPresenter(service: service)
+                sut.atatchView(view: view)
             }
             
             describe("When user open`s the app") {
@@ -37,7 +38,7 @@ final class MoviesListPresenterTeste: QuickSpec {
                     }
                     
                     it("then should be loaded a most popular movies list") {
-                        expect(view.movies?.isEmpty).to(beFalse())
+                        expect(view.movies.isEmpty).to(beFalse())
                     }
                 }
                 
@@ -53,37 +54,43 @@ final class MoviesListPresenterTeste: QuickSpec {
                 }
             
                     
-                describe("Tap Load More Movies button") {
+//                describe("Tap Load More Movies button") {
+//
+//                        it("Should do new request with next page value")  {
+//                            sut.moviesList(page: 2)
+//                        }
+//
+//
+//                    }
 
-                        it("Should apend more movies to array")  {
-                            sut.moviesList(page: 2)
+                describe("") {
+                
+                    context("Type a valid movie on SearchBar text field") {
+
+
+
+                        it("Must return movie list that contains the typed text") {
+                            var text = "Love"
+                            sut.searchMovie(text: text, page: 1)
+                            
+                            expect(view.movies.isEmpty).to(beFalse())
+                            expect(view.movies[0].title) == "Love"
+                            
                         }
 
-
                     }
-//
-//
-//                    context("Type a valid movie on SearchBar text field") {
-//
-//
-//
-//                        it("Must return movie list that contains the typed text") {
-//
-//                        }
-//
-//                        it("Must append result at searchedMovies array") {
-//
-//                        }
-//                    }
+                }
 //
 //                    context("Tap Cancel button after returns Search movie list") {
-//
+//                        sut.
 //                        it("Must removeAll from movies array") {
 //
 //                        }
 //
 //                        it("Should do a new request on Popular Movies endpoint") {
-//
+//                            sut
+//                            
+//                            expect(view.showMoviesListCalled).to(beTrue())
 //                        }
 //
 //
@@ -98,7 +105,11 @@ final class MoviesListPresenterTeste: QuickSpec {
 private class MoviesListServiceSpy: MovieListServiceProtocol {
    
     func searchMovieData(text: String, page: Int, completion: @escaping (MovieResponse?) -> ()) {
-        
+        if page > 0 {
+            completion(MovieResponse(results: [Movie(title: "Love", id: 1, release_date: "2019-01-01", overview: "OK", vote_average: 8.4, poster_path: nil, backdrop_path: nil)]))
+        } else {
+            
+        }
     }
     
     func requestAuth(parameters: Parameters, completion: @escaping (Token?) -> ()) {
@@ -108,6 +119,7 @@ private class MoviesListServiceSpy: MovieListServiceProtocol {
     func moviesList(page: Int, completion: @escaping (MovieResponse?) -> ()) {
         if page > 0 {
             completion(MovieResponse(results: [Movie(title: "Rambo", id: 100, release_date: "2019-04-04", overview: "OverTests", vote_average: 4.5, poster_path: "aaa", backdrop_path: "bbb")]))
+        
         } else {
             
         }
@@ -116,10 +128,11 @@ private class MoviesListServiceSpy: MovieListServiceProtocol {
 }
 
 private class MoviesListViewSpy: MoviesListView {
+   
     var showDetailsCalled: Bool?
     var moviePassed: Movie?
-    var movies: [Movie]?
-    
+    var movies: [Movie] = []
+    var showMoviesListCalled: Bool?
     func requestAuth() {
     }
     
@@ -127,7 +140,8 @@ private class MoviesListViewSpy: MoviesListView {
     }
     
     func showMoviesList(moviesOk: [Movie]) {
-        movies = moviesOk
+        showMoviesListCalled = true
+        movies.append(contentsOf: moviesOk)
     }
     
     func showDetails(movie: Movie) {
@@ -140,6 +154,7 @@ private class MoviesListViewSpy: MoviesListView {
     }
     
     func showSearchMovie(searchedMovie: [Movie]) {
+        movies.append(contentsOf: searchedMovie)
         
     }
     

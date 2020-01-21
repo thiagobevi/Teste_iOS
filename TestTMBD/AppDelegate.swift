@@ -13,10 +13,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
     
+        if ProcessInfo.processInfo.environment["XCTestConfigurationFilePath"] != nil { return true }
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+    
+        let controller = storyboard.instantiateViewController(withIdentifier: "MoviesTableViewController") as! MoviesTableViewController
+        let presenter = MoviesListPresenter(service: MoviesListService())
+        controller.presenter = presenter
+        presenter.atatchView(view: controller)
+        
+        let navigationController = UINavigationController(rootViewController: controller)
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

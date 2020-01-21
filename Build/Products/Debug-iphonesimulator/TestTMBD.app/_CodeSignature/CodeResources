@@ -18,23 +18,23 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/DetailsViewController.nib</key>
 		<data>
-		fQP19BmZGusqNmxPRINlDrvDrpE=
+		Rn7UtXkaWqBiiekjCckfe8lV82U=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		0QTNJWCxkedzRHfMHlZySMm3Vas=
+		WkkXrRt6dfI3BD4a8Q16orTaj6g=
 		</data>
-		<key>Base.lproj/Main.storyboardc/UINavigationController-kFh-z7-aqd.nib</key>
+		<key>Base.lproj/Main.storyboardc/MoviesTableViewController.nib</key>
 		<data>
-		bu8Ec6a6ZgKrgX958oYvCbpioqg=
+		F/CCPGSBx8AOLmcXrCm+84tpZCE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/dUS-j9-e2h-view-A7L-5f-Pua.nib</key>
 		<data>
-		RYt+xGaXbPo/cZ+Yo2TjXhIS0gE=
+		sg2Auti8OPI631nNd6aKiz4ufl4=
 		</data>
 		<key>Base.lproj/Main.storyboardc/hg2-Tx-Ebx-view-8Va-fA-5ZU.nib</key>
 		<data>
-		1DAmANF1zFFky+iV5MiG88iusSE=
+		ElUoqecBD/OccitzyTV/WExGcWY=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
@@ -123,7 +123,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SlDvw2fvZ/JYw2vNUjHYHONGsvU=
+		6YvV7V0i4tEJx/1KvOY6tiNRhxA=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -163,7 +163,7 @@
 		</data>
 		<key>PlugIns/TestTMBDTests.xctest/TestTMBDTests</key>
 		<data>
-		tdhri+ct2ZOrI4+SKCkYDPOejJc=
+		9axzQ9rL2X78jdm9nAAJP45RC0Q=
 		</data>
 		<key>PlugIns/TestTMBDTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -205,35 +205,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b+qP8sUgsgFRZNp6ABc6yiT0vT+z2+lNoDe4ybiOKeE=
+			nOTTtMQI0KYXjuQ0iaKBfRIIEN4YeWRaPgvCoMYmZwk=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3DiAGMK1nYkLbRi4MDsK/pchBJLKiKnmBw5IuwIIyRo=
+			hwEVlNsodsVgYIpkXGqRQ4ER/JEKt67O77MqefcWdd0=
 			</data>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/UINavigationController-kFh-z7-aqd.nib</key>
+		<key>Base.lproj/Main.storyboardc/MoviesTableViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OIo0YodHQ7Bi5IVj9VmsVPihvDeXi7QPpV3cTAvY7y0=
+			hCaq4nfafmbGmtISyciwSQm3ucx++4zv1ElD6Q23Weo=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/dUS-j9-e2h-view-A7L-5f-Pua.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JFSqcAZUH6xz/Xm4F7mWZH8qWRtvB/EvU07Bwcaxqro=
+			9C5j1yDCFtOWndZHLkAKDVfHMxl3aHFOnLJnaU+KOGA=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/hg2-Tx-Ebx-view-8Va-fA-5ZU.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HTAcf4rWGiGR2QA8G8gEvLKHdSjj2pMeTOnh7VtUnYI=
+			pJUkm9mI9C4xRVVuED8WSKLAYOoaH5/qWOfMLlnFrnQ=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
@@ -438,7 +438,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lXpfvHU02SYRbygXS1XSzpBGomMS0a/75OyC9JBwUV0=
+			U3EEnWbEt0HdCWgW8FXNh5jojY/3MFrh9V8QOxws+N0=
 			</data>
 		</dict>
 		<key>PlugIns/TestTMBDTests.xctest/_CodeSignature/CodeResources</key>

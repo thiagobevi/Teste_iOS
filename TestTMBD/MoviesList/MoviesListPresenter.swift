@@ -10,6 +10,7 @@ import UIKit
 import Alamofire
 
 protocol MoviesListPresentable: class {
+    func atatchView(view: MoviesListView)
     func moviesList(page: Int)
     func searchMovie(text: String, page: Int)
     func didSelectMovie(movie: Movie)
@@ -36,10 +37,6 @@ class MoviesListPresenter: MoviesListPresentable {
     
     func searchMovie(text: String, page: Int) {
          serviceProtocol.searchMovieData(text: text, page: page) { [weak self] result in
-            guard result != nil else {
-                return
-            }
-            
             self?.moviesView?.showSearchMovie(searchedMovie: result!.results) //(moviesOk: result!.results)
         }
     }

@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestTMBD/MoviesList/MoviesTableViewController.swift"
-            timestampString = "601219529.9241"
+            timestampString = "601311336.216805"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
             landmarkName = "showSearchMovie(searchedMovie:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestTMBD/MoviesList/MoviesTableViewController.swift"
-            timestampString = "601219529.924662"
+            timestampString = "601311336.217114"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
             landmarkName = "showSearchMovie(searchedMovie:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestTMBD/MoviesList/MoviesListService.swift"
-            timestampString = "601219529.924933"
+            timestampString = "601311336.2171839"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "59"
@@ -58,23 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestTMBD/MoviesList/MoviesTableViewController.swift"
-            timestampString = "601219529.925094"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "loadNextMovies(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TestTMBD/MoviesList/MoviesTableViewController.swift"
-            timestampString = "601219529.9253269"
+            timestampString = "601311336.217342"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
@@ -90,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TestTMBD/MoviesList/MoviesTableViewController.swift"
-            timestampString = "601219529.925536"
+            timestampString = "601311336.217399"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
@@ -105,46 +89,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TestTMBD/MoviesList/MoviesListPresenter.swift"
-            timestampString = "601219529.925743"
+            filePath = "TestTMBD/MoviesList/MoviesTableViewController.swift"
+            timestampString = "601311336.217451"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "searchMovie(text:page:)"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "loadNextMovies(_:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TestTMBD.MoviesListPresenter.searchMovie(text: Swift.String, page: Swift.Int) -&gt; ()"
-                  moduleName = "TestTMBD"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/MoviesList/MoviesListPresenter.swift"
-                  timestampString = "601219530.118276"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "69">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;TestTMBD.MovieResponse&gt;) -&gt; () in TestTMBD.MoviesListPresenter.searchMovie(text: Swift.String, page: Swift.Int) -&gt; ()"
-                  moduleName = "TestTMBD"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/MoviesList/MoviesListPresenter.swift"
-                  timestampString = "601219530.119867"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "99">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -153,13 +105,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TestTMBD/MoviesList/MoviesListPresenter.swift"
-            timestampString = "601219529.925887"
+            filePath = "TestTMBDTests/MoviesListPresenterTest.swift"
+            timestampString = "601311336.217507"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "searchMovie(text:page:)"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "spec()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestTMBDTests/MoviesListPresenterTest.swift"
+            timestampString = "601311336.217986"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "spec()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
