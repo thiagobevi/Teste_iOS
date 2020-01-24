@@ -102,6 +102,18 @@ depends-top-level:
 - !private "min"
 - !private "~="
 depends-member:
+- !private ["10Accelerate0A6BufferP", "count"]
+- !private ["10Accelerate0A6BufferP", "forEach"]
+- !private ["10Accelerate0A6BufferP", "indices"]
+- !private ["10Accelerate0A6BufferP", "init"]
+- !private ["10Accelerate0A6BufferP", "reserveCapacity"]
+- !private ["10Accelerate0A6BufferP", "subscript"]
+- !private ["10Accelerate0A13MutableBufferP", "count"]
+- !private ["10Accelerate0A13MutableBufferP", "forEach"]
+- !private ["10Accelerate0A13MutableBufferP", "indices"]
+- !private ["10Accelerate0A13MutableBufferP", "init"]
+- !private ["10Accelerate0A13MutableBufferP", "reserveCapacity"]
+- !private ["10Accelerate0A13MutableBufferP", "subscript"]
 - !private ["s18AdditiveArithmeticP", "infinity"]
 - !private ["s18AdditiveArithmeticP", "init"]
 - ["10Kingfisher17AnimatedImageViewC0B5FrameV", "AnimatedFrame"]
@@ -114,6 +126,8 @@ depends-member:
 - ["10Kingfisher17AnimatedImageViewC0B5FrameV", "isPlaceholder"]
 - ["10Kingfisher17AnimatedImageViewC0B5FrameV", "makeAnimatedFrame"]
 - ["10Kingfisher17AnimatedImageViewC0B5FrameV", "placeholderFrame"]
+- !private ["10Kingfisher17AnimatedImageViewC", "$__lazy_storage_$_displayLink"]
+- !private ["10Kingfisher17AnimatedImageViewC", "$__lazy_storage_$_preloadQueue"]
 - ["10Kingfisher17AnimatedImageViewC", "AnimatedFrame"]
 - ["10Kingfisher17AnimatedImageViewC", "AnimatedImageView"]
 - ["10Kingfisher17AnimatedImageViewC", "AnimatedImageViewDelegate"]
@@ -157,7 +171,6 @@ depends-member:
 - ["10Kingfisher17AnimatedImageViewC", "didMoveToWindow"]
 - ["10Kingfisher17AnimatedImageViewC", "display"]
 - !private ["10Kingfisher17AnimatedImageViewC", "displayLink"]
-- !private ["10Kingfisher17AnimatedImageViewC", "displayLink.storage"]
 - ["10Kingfisher17AnimatedImageViewC", "framePreloadCount"]
 - ["10Kingfisher17AnimatedImageViewC", "image"]
 - ["10Kingfisher17AnimatedImageViewC", "init"]
@@ -172,7 +185,6 @@ depends-member:
 - !private ["10Kingfisher17AnimatedImageViewC", "min"]
 - ["10Kingfisher17AnimatedImageViewC", "needsPrescaling"]
 - !private ["10Kingfisher17AnimatedImageViewC", "preloadQueue"]
-- !private ["10Kingfisher17AnimatedImageViewC", "preloadQueue.storage"]
 - ["10Kingfisher17AnimatedImageViewC", "repeatCount"]
 - !private ["10Kingfisher17AnimatedImageViewC", "reset"]
 - ["10Kingfisher17AnimatedImageViewC", "runLoopMode"]
@@ -187,6 +199,7 @@ depends-member:
 - ["10Kingfisher25AnimatedImageViewDelegateP", "UInt"]
 - ["10Kingfisher25AnimatedImageViewDelegateP", "animatedImageView"]
 - ["10Kingfisher25AnimatedImageViewDelegateP", "animatedImageViewDidFinishAnimating"]
+- !private ["10Kingfisher17AnimatedImageViewC8AnimatorC", "$__lazy_storage_$_preloadQueue"]
 - ["10Kingfisher17AnimatedImageViewC8AnimatorC", "AnimatedFrame"]
 - ["10Kingfisher17AnimatedImageViewC8AnimatorC", "AnimatorDelegate"]
 - ["10Kingfisher17AnimatedImageViewC8AnimatorC", "Bool"]
@@ -241,7 +254,6 @@ depends-member:
 - ["10Kingfisher17AnimatedImageViewC8AnimatorC", "needsPrescaling"]
 - !private ["10Kingfisher17AnimatedImageViewC8AnimatorC", "preloadIndexes"]
 - !private ["10Kingfisher17AnimatedImageViewC8AnimatorC", "preloadQueue"]
-- !private ["10Kingfisher17AnimatedImageViewC8AnimatorC", "preloadQueue.storage"]
 - ["10Kingfisher17AnimatedImageViewC8AnimatorC", "preloadingIsNeeded"]
 - ["10Kingfisher17AnimatedImageViewC8AnimatorC", "prepareFramesAsynchronously"]
 - ["10Kingfisher17AnimatedImageViewC8AnimatorC", "previousFrameIndex"]
@@ -981,6 +993,8 @@ depends-member:
 - ["So9NSLockingP", "init"]
 - !private ["So9NSLockingP", "lock"]
 - !private ["So9NSLockingP", "unlock"]
+- ["So8NSObjectC", "$__lazy_storage_$_displayLink"]
+- ["So8NSObjectC", "$__lazy_storage_$_preloadQueue"]
 - ["So8NSObjectC", "AnimatedFrame"]
 - ["So8NSObjectC", "AnimatedImageView"]
 - ["So8NSObjectC", "AnimatedImageViewDelegate"]
@@ -1029,7 +1043,6 @@ depends-member:
 - ["So8NSObjectC", "didMoveToWindow"]
 - ["So8NSObjectC", "display"]
 - ["So8NSObjectC", "displayLink"]
-- ["So8NSObjectC", "displayLink.storage"]
 - !private ["So8NSObjectC", "duration"]
 - ["So8NSObjectC", "framePreloadCount"]
 - ["So8NSObjectC", "image"]
@@ -1051,7 +1064,6 @@ depends-member:
 - ["So8NSObjectC", "needsPrescaling"]
 - !private ["So8NSObjectC", "preferredFramesPerSecond"]
 - ["So8NSObjectC", "preloadQueue"]
-- ["So8NSObjectC", "preloadQueue.storage"]
 - !private ["So8NSObjectC", "remove"]
 - ["So8NSObjectC", "repeatCount"]
 - ["So8NSObjectC", "reset"]
@@ -1182,6 +1194,10 @@ depends-member:
 - ["10Kingfisher9SafeArrayC", "removeAll"]
 - ["10Kingfisher9SafeArrayC", "reserveCapacity"]
 - ["10Kingfisher9SafeArrayC", "subscript"]
+- ["7Combine9SchedulerP", "Mode"]
+- !private ["7Combine9SchedulerP", "async"]
+- ["7Combine9SchedulerP", "init"]
+- ["7Combine9SchedulerP", "main"]
 - !private ["ST", "count"]
 - !private ["ST", "forEach"]
 - !private ["ST", "indices"]
@@ -1663,6 +1679,8 @@ depends-member:
 - !private ["So7UIImageC", "deinit"]
 - !private ["So7UIImageC", "init"]
 - !private ["So7UIImageC", "kf"]
+- ["So11UIImageViewC", "$__lazy_storage_$_displayLink"]
+- ["So11UIImageViewC", "$__lazy_storage_$_preloadQueue"]
 - ["So11UIImageViewC", "AnimatedFrame"]
 - ["So11UIImageViewC", "AnimatedImageView"]
 - ["So11UIImageViewC", "AnimatedImageViewDelegate"]
@@ -1706,7 +1724,6 @@ depends-member:
 - ["So11UIImageViewC", "didMoveToWindow"]
 - ["So11UIImageViewC", "display"]
 - ["So11UIImageViewC", "displayLink"]
-- ["So11UIImageViewC", "displayLink.storage"]
 - ["So11UIImageViewC", "framePreloadCount"]
 - ["So11UIImageViewC", "image"]
 - ["So11UIImageViewC", "init"]
@@ -1721,7 +1738,6 @@ depends-member:
 - !private ["So11UIImageViewC", "min"]
 - ["So11UIImageViewC", "needsPrescaling"]
 - ["So11UIImageViewC", "preloadQueue"]
-- ["So11UIImageViewC", "preloadQueue.storage"]
 - ["So11UIImageViewC", "repeatCount"]
 - ["So11UIImageViewC", "reset"]
 - ["So11UIImageViewC", "runLoopMode"]
@@ -1735,6 +1751,57 @@ depends-member:
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "cgImage"]
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "kf"]
+- !private ["So24UILargeContentViewerItemP", "AnimatedFrame"]
+- ["So24UILargeContentViewerItemP", "Animator"]
+- ["So24UILargeContentViewerItemP", "CADisplayLink"]
+- !private ["So24UILargeContentViewerItemP", "CGImageSourceCreateImageAtIndex"]
+- !private ["So24UILargeContentViewerItemP", "CGImageSourceGetCount"]
+- ["So24UILargeContentViewerItemP", "ContentMode"]
+- ["So24UILargeContentViewerItemP", "DispatchQueue"]
+- !private ["So24UILargeContentViewerItemP", "Double"]
+- !private ["So24UILargeContentViewerItemP", "GIFAnimatedImage"]
+- !private ["So24UILargeContentViewerItemP", "Int"]
+- !private ["So24UILargeContentViewerItemP", "KFCrossPlatformImage"]
+- ["So24UILargeContentViewerItemP", "KFRunLoopModeCommon"]
+- ["So24UILargeContentViewerItemP", "RepeatCount"]
+- ["So24UILargeContentViewerItemP", "SafeArray"]
+- ["So24UILargeContentViewerItemP", "TargetProxy"]
+- !private ["So24UILargeContentViewerItemP", "UIScreen"]
+- ["So24UILargeContentViewerItemP", "UIView"]
+- ["So24UILargeContentViewerItemP", ""]
+- ["So24UILargeContentViewerItemP", "animator"]
+- !private ["So24UILargeContentViewerItemP", "autoPlayAnimatedImage"]
+- !private ["So24UILargeContentViewerItemP", "backgroundDecode"]
+- !private ["So24UILargeContentViewerItemP", "bounds"]
+- !private ["So24UILargeContentViewerItemP", "contentMode"]
+- !private ["So24UILargeContentViewerItemP", "delegate"]
+- !private ["So24UILargeContentViewerItemP", "didMove"]
+- !private ["So24UILargeContentViewerItemP", "didMoveToSuperview"]
+- !private ["So24UILargeContentViewerItemP", "didMoveToWindow"]
+- !private ["So24UILargeContentViewerItemP", "displayLink"]
+- !private ["So24UILargeContentViewerItemP", "framePreloadCount"]
+- !private ["So24UILargeContentViewerItemP", "image"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "isAnimating"]
+- ["So24UILargeContentViewerItemP", "isDisplayLinkInitialized"]
+- !private ["So24UILargeContentViewerItemP", "kCGImageSourceCreateThumbnailFromImageIfAbsent"]
+- !private ["So24UILargeContentViewerItemP", "kCGImageSourceCreateThumbnailWithTransform"]
+- !private ["So24UILargeContentViewerItemP", "kCGImageSourceShouldCacheImmediately"]
+- !private ["So24UILargeContentViewerItemP", "kCGImageSourceThumbnailMaxPixelSize"]
+- !private ["So24UILargeContentViewerItemP", "layer"]
+- !private ["So24UILargeContentViewerItemP", "max"]
+- !private ["So24UILargeContentViewerItemP", "min"]
+- !private ["So24UILargeContentViewerItemP", "needsPrescaling"]
+- !private ["So24UILargeContentViewerItemP", "preloadQueue"]
+- !private ["So24UILargeContentViewerItemP", "repeatCount"]
+- !private ["So24UILargeContentViewerItemP", "reset"]
+- ["So24UILargeContentViewerItemP", "runLoopMode"]
+- !private ["So24UILargeContentViewerItemP", "setNeedsDisplay"]
+- !private ["So24UILargeContentViewerItemP", "startAnimating"]
+- !private ["So24UILargeContentViewerItemP", "stopAnimating"]
+- !private ["So24UILargeContentViewerItemP", "superview"]
+- !private ["So24UILargeContentViewerItemP", "updateFrameIfNeeded"]
+- !private ["So24UILargeContentViewerItemP", "window"]
 - !private ["So30UIPasteConfigurationSupportingP", "AnimatedFrame"]
 - ["So30UIPasteConfigurationSupportingP", "Animator"]
 - ["So30UIPasteConfigurationSupportingP", "CADisplayLink"]
@@ -1786,6 +1853,8 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "superview"]
 - !private ["So30UIPasteConfigurationSupportingP", "updateFrameIfNeeded"]
 - !private ["So30UIPasteConfigurationSupportingP", "window"]
+- ["So11UIResponderC", "$__lazy_storage_$_displayLink"]
+- ["So11UIResponderC", "$__lazy_storage_$_preloadQueue"]
 - ["So11UIResponderC", "AnimatedFrame"]
 - ["So11UIResponderC", "AnimatedImageView"]
 - ["So11UIResponderC", "AnimatedImageViewDelegate"]
@@ -1829,7 +1898,6 @@ depends-member:
 - ["So11UIResponderC", "didMoveToWindow"]
 - ["So11UIResponderC", "display"]
 - ["So11UIResponderC", "displayLink"]
-- ["So11UIResponderC", "displayLink.storage"]
 - ["So11UIResponderC", "framePreloadCount"]
 - ["So11UIResponderC", "image"]
 - ["So11UIResponderC", "init"]
@@ -1844,7 +1912,6 @@ depends-member:
 - !private ["So11UIResponderC", "min"]
 - ["So11UIResponderC", "needsPrescaling"]
 - ["So11UIResponderC", "preloadQueue"]
-- ["So11UIResponderC", "preloadQueue.storage"]
 - ["So11UIResponderC", "repeatCount"]
 - ["So11UIResponderC", "reset"]
 - ["So11UIResponderC", "runLoopMode"]
@@ -2012,6 +2079,8 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "superview"]
 - !private ["So23UIUserActivityRestoringP", "updateFrameIfNeeded"]
 - !private ["So23UIUserActivityRestoringP", "window"]
+- ["So6UIViewC", "$__lazy_storage_$_displayLink"]
+- ["So6UIViewC", "$__lazy_storage_$_preloadQueue"]
 - ["So6UIViewC", "AnimatedFrame"]
 - ["So6UIViewC", "AnimatedImageView"]
 - ["So6UIViewC", "AnimatedImageViewDelegate"]
@@ -2055,7 +2124,6 @@ depends-member:
 - ["So6UIViewC", "didMoveToWindow"]
 - ["So6UIViewC", "display"]
 - ["So6UIViewC", "displayLink"]
-- ["So6UIViewC", "displayLink.storage"]
 - ["So6UIViewC", "framePreloadCount"]
 - ["So6UIViewC", "image"]
 - ["So6UIViewC", "init"]
@@ -2070,7 +2138,6 @@ depends-member:
 - !private ["So6UIViewC", "min"]
 - ["So6UIViewC", "needsPrescaling"]
 - ["So6UIViewC", "preloadQueue"]
-- ["So6UIViewC", "preloadQueue.storage"]
 - ["So6UIViewC", "repeatCount"]
 - ["So6UIViewC", "reset"]
 - ["So6UIViewC", "runLoopMode"]
@@ -2191,6 +2258,72 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "updateFrameIfNeeded"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AnimatedFrame"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Animator"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CADisplayLink"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGImageSourceCreateImageAtIndex"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGImageSourceGetCount"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ContentMode"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DispatchQueue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Double"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GIFAnimatedImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Int"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "KFCrossPlatformImage"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "KFRunLoopModeCommon"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Mode"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RepeatCount"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SafeArray"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TargetProxy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIScreen"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "add"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "animator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "autoPlayAnimatedImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundDecode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bounds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cgImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contentMode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contents"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didMove"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didMoveToSuperview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didMoveToWindow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "displayLink"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "duration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "framePreloadCount"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "image"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "invalidate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isAnimating"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isDisplayLinkInitialized"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isPaused"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kCGImageSourceCreateThumbnailFromImageIfAbsent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kCGImageSourceCreateThumbnailWithTransform"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kCGImageSourceShouldCacheImmediately"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kCGImageSourceThumbnailMaxPixelSize"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kf"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lock"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "max"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "min"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "needsPrescaling"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "preferredFramesPerSecond"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "preloadQueue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "remove"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "repeatCount"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "reset"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "runLoopMode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scale"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setNeedsDisplay"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "startAnimating"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stopAnimating"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "superview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unlock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "updateFrameIfNeeded"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "window"]
 - ["s21_ObjectiveCBridgeableP", "common"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
 - !private ["s21_ObjectiveCBridgeableP", "forEach"]
@@ -2256,7 +2389,17 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "superview"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "updateFrameIfNeeded"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "window"]
+- !private ["10Accelerate34vDSP_FloatingPointBiquadFilterableP", "infinity"]
+- !private ["10Accelerate34vDSP_FloatingPointBiquadFilterableP", "init"]
+- !private ["10Accelerate29vDSP_FloatingPointConvertableP", "infinity"]
+- !private ["10Accelerate29vDSP_FloatingPointConvertableP", "init"]
+- !private ["10Accelerate46vDSP_FloatingPointDiscreteFourierTransformableP", "infinity"]
+- !private ["10Accelerate46vDSP_FloatingPointDiscreteFourierTransformableP", "init"]
+- !private ["10Accelerate29vDSP_FloatingPointGeneratableP", "infinity"]
+- !private ["10Accelerate29vDSP_FloatingPointGeneratableP", "init"]
 depends-nominal:
+- !private "10Accelerate0A6BufferP"
+- !private "10Accelerate0A13MutableBufferP"
 - !private "s18AdditiveArithmeticP"
 - "10Kingfisher17AnimatedImageViewC0B5FrameV"
 - "10Kingfisher17AnimatedImageViewC"
@@ -2325,6 +2468,7 @@ depends-nominal:
 - "So9NSRunLoopC"
 - !private "s10SIMDScalarP"
 - "10Kingfisher9SafeArrayC"
+- "7Combine9SchedulerP"
 - !private "ST"
 - !private "SZ"
 - !private "s13SignedNumericP"
@@ -2343,6 +2487,7 @@ depends-nominal:
 - !private "So7UIImageC"
 - "So11UIImageViewC"
 - !private "So39UIItemProviderPresentationSizeProvidingP"
+- "So24UILargeContentViewerItemP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
@@ -2361,46 +2506,60 @@ depends-nominal:
 - !private "s19_HasContiguousBytesP"
 - "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - "s21_ObjectiveCBridgeableP"
 - "s20_SwiftNewtypeWrapperP"
 - "s38__DefaultCustomPlaygroundQuickLookableP"
+- !private "10Accelerate34vDSP_FloatingPointBiquadFilterableP"
+- !private "10Accelerate29vDSP_FloatingPointConvertableP"
+- !private "10Accelerate46vDSP_FloatingPointDiscreteFourierTransformableP"
+- !private "10Accelerate29vDSP_FloatingPointGeneratableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WatchKit.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Pods/Kingfisher/Sources/Kingfisher.h"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Kingfisher.build/unextended-module.modulemap"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WatchKit.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "915792685875d8d369118d01d2a61496"

@@ -61,7 +61,7 @@ extension MoviesTableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseCell", for: indexPath) as! Cell
-        if let finalURL = movies[indexPath.row].backdrop_path {
+        if let finalURL = movies[indexPath.row].poster_path {
             let resource = URL(string: "https://image.tmdb.org/t/p/w154/\(finalURL)")!
             cell.imageCell?.kf.indicatorType = .activity
             cell.imageCell?.kf.setImage(with: resource)
@@ -86,7 +86,8 @@ extension MoviesTableViewController {
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Most Popular Movies"
+        
+        return "Upcoming Movies"
     }
     
 }

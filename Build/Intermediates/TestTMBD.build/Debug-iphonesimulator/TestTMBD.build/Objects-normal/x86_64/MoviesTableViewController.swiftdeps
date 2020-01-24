@@ -51,19 +51,37 @@ depends-top-level:
 - !private "URL"
 - !private "print"
 depends-member:
+- !private ["10Accelerate0A6BufferP", "append"]
+- !private ["10Accelerate0A6BufferP", "count"]
+- !private ["10Accelerate0A6BufferP", "id"]
+- !private ["10Accelerate0A6BufferP", "poster_path"]
+- !private ["10Accelerate0A6BufferP", "release_date"]
+- !private ["10Accelerate0A6BufferP", "removeAll"]
+- !private ["10Accelerate0A6BufferP", "subscript"]
+- !private ["10Accelerate0A6BufferP", "title"]
+- !private ["10Accelerate0A6BufferP", "vote_average"]
+- !private ["10Accelerate0A13MutableBufferP", "append"]
+- !private ["10Accelerate0A13MutableBufferP", "count"]
+- !private ["10Accelerate0A13MutableBufferP", "id"]
+- !private ["10Accelerate0A13MutableBufferP", "poster_path"]
+- !private ["10Accelerate0A13MutableBufferP", "release_date"]
+- !private ["10Accelerate0A13MutableBufferP", "removeAll"]
+- !private ["10Accelerate0A13MutableBufferP", "subscript"]
+- !private ["10Accelerate0A13MutableBufferP", "title"]
+- !private ["10Accelerate0A13MutableBufferP", "vote_average"]
 - !private ["Sa", "append"]
 - !private ["Sa", "count"]
 - !private ["Sa", "removeAll"]
 - !private ["Sa", "subscript"]
-- !private ["s10ArraySliceV", "backdrop_path"]
 - !private ["s10ArraySliceV", "id"]
+- !private ["s10ArraySliceV", "poster_path"]
 - !private ["s10ArraySliceV", "release_date"]
 - !private ["s10ArraySliceV", "title"]
 - !private ["s10ArraySliceV", "vote_average"]
 - !private ["SK", "append"]
-- !private ["SK", "backdrop_path"]
 - !private ["SK", "count"]
 - !private ["SK", "id"]
+- !private ["SK", "poster_path"]
 - !private ["SK", "release_date"]
 - !private ["SK", "removeAll"]
 - !private ["SK", "row"]
@@ -141,9 +159,9 @@ depends-member:
 - !private ["8TestTMBD4CellC", "titlteCell"]
 - !private ["8TestTMBD4CellC", "voteCell"]
 - !private ["Sl", "append"]
-- !private ["Sl", "backdrop_path"]
 - !private ["Sl", "count"]
 - !private ["Sl", "id"]
+- !private ["Sl", "poster_path"]
 - !private ["Sl", "release_date"]
 - !private ["Sl", "removeAll"]
 - !private ["Sl", "row"]
@@ -152,9 +170,9 @@ depends-member:
 - !private ["Sl", "vote_average"]
 - !private ["SL", "row"]
 - !private ["10Foundation15ContiguousBytesP", "append"]
-- !private ["10Foundation15ContiguousBytesP", "backdrop_path"]
 - !private ["10Foundation15ContiguousBytesP", "count"]
 - !private ["10Foundation15ContiguousBytesP", "id"]
+- !private ["10Foundation15ContiguousBytesP", "poster_path"]
 - !private ["10Foundation15ContiguousBytesP", "release_date"]
 - !private ["10Foundation15ContiguousBytesP", "removeAll"]
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
@@ -165,7 +183,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "URL"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
-- !private ["s28CustomDebugStringConvertibleP", "backdrop_path"]
 - !private ["s28CustomDebugStringConvertibleP", "configureSearchController"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "delegate"]
@@ -187,6 +204,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "placeholder"]
 - ["s28CustomDebugStringConvertibleP", "position"]
 - ["s28CustomDebugStringConvertibleP", "positionForBar"]
+- !private ["s28CustomDebugStringConvertibleP", "poster_path"]
 - !private ["s28CustomDebugStringConvertibleP", "presenter"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "pushViewController"]
@@ -221,9 +239,9 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "voteCell"]
 - !private ["s28CustomDebugStringConvertibleP", "vote_average"]
 - !private ["s17CustomReflectableP", "append"]
-- !private ["s17CustomReflectableP", "backdrop_path"]
 - !private ["s17CustomReflectableP", "count"]
 - !private ["s17CustomReflectableP", "id"]
+- !private ["s17CustomReflectableP", "poster_path"]
 - !private ["s17CustomReflectableP", "release_date"]
 - !private ["s17CustomReflectableP", "reloadData"]
 - !private ["s17CustomReflectableP", "removeAll"]
@@ -239,7 +257,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "append"]
 - !private ["s23CustomStringConvertibleP", "appendInterpolation"]
 - !private ["s23CustomStringConvertibleP", "appendLiteral"]
-- !private ["s23CustomStringConvertibleP", "backdrop_path"]
 - !private ["s23CustomStringConvertibleP", "configureSearchController"]
 - !private ["s23CustomStringConvertibleP", "count"]
 - !private ["s23CustomStringConvertibleP", "delegate"]
@@ -261,6 +278,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "placeholder"]
 - ["s23CustomStringConvertibleP", "position"]
 - ["s23CustomStringConvertibleP", "positionForBar"]
+- !private ["s23CustomStringConvertibleP", "poster_path"]
 - !private ["s23CustomStringConvertibleP", "presenter"]
 - !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "pushViewController"]
@@ -295,19 +313,19 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "voteCell"]
 - !private ["s23CustomStringConvertibleP", "vote_average"]
 - !private ["10Foundation12DataProtocolP", "append"]
-- !private ["10Foundation12DataProtocolP", "backdrop_path"]
 - !private ["10Foundation12DataProtocolP", "count"]
 - !private ["10Foundation12DataProtocolP", "id"]
+- !private ["10Foundation12DataProtocolP", "poster_path"]
 - !private ["10Foundation12DataProtocolP", "release_date"]
 - !private ["10Foundation12DataProtocolP", "removeAll"]
 - !private ["10Foundation12DataProtocolP", "subscript"]
 - !private ["10Foundation12DataProtocolP", "title"]
 - !private ["10Foundation12DataProtocolP", "vote_average"]
 - !private ["Se", "append"]
-- !private ["Se", "backdrop_path"]
 - !private ["Se", "count"]
 - !private ["Se", "id"]
 - !private ["Se", "init"]
+- !private ["Se", "poster_path"]
 - !private ["Se", "release_date"]
 - !private ["Se", "reloadData"]
 - !private ["Se", "removeAll"]
@@ -320,10 +338,10 @@ depends-member:
 - !private ["s26DefaultStringInterpolationV", "appendLiteral"]
 - !private ["8TestTMBD21DetailsViewControllerC", "movie"]
 - !private ["SE", "append"]
-- !private ["SE", "backdrop_path"]
 - !private ["SE", "count"]
 - !private ["SE", "id"]
 - !private ["SE", "init"]
+- !private ["SE", "poster_path"]
 - !private ["SE", "release_date"]
 - !private ["SE", "reloadData"]
 - !private ["SE", "removeAll"]
@@ -337,7 +355,6 @@ depends-member:
 - !private ["SQ", "URL"]
 - ["SQ", ""]
 - !private ["SQ", "append"]
-- !private ["SQ", "backdrop_path"]
 - !private ["SQ", "configureSearchController"]
 - !private ["SQ", "count"]
 - !private ["SQ", "delegate"]
@@ -359,6 +376,7 @@ depends-member:
 - !private ["SQ", "placeholder"]
 - ["SQ", "position"]
 - ["SQ", "positionForBar"]
+- !private ["SQ", "poster_path"]
 - !private ["SQ", "presenter"]
 - !private ["SQ", "print"]
 - !private ["SQ", "pushViewController"]
@@ -393,9 +411,9 @@ depends-member:
 - !private ["SQ", "voteCell"]
 - !private ["SQ", "vote_average"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
-- !private ["s25ExpressibleByArrayLiteralP", "backdrop_path"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s25ExpressibleByArrayLiteralP", "id"]
+- !private ["s25ExpressibleByArrayLiteralP", "poster_path"]
 - !private ["s25ExpressibleByArrayLiteralP", "release_date"]
 - !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
 - !private ["s25ExpressibleByArrayLiteralP", "row"]
@@ -409,7 +427,6 @@ depends-member:
 - !private ["SH", "URL"]
 - ["SH", ""]
 - !private ["SH", "append"]
-- !private ["SH", "backdrop_path"]
 - !private ["SH", "configureSearchController"]
 - !private ["SH", "count"]
 - !private ["SH", "delegate"]
@@ -431,6 +448,7 @@ depends-member:
 - !private ["SH", "placeholder"]
 - ["SH", "position"]
 - ["SH", "positionForBar"]
+- !private ["SH", "poster_path"]
 - !private ["SH", "presenter"]
 - !private ["SH", "print"]
 - !private ["SH", "pushViewController"]
@@ -469,8 +487,8 @@ depends-member:
 - !private ["10Kingfisher0A10CompatibleP", "kf"]
 - !private ["10Kingfisher0A7WrapperV", "indicatorType"]
 - !private ["10Kingfisher0A7WrapperV", "setImage"]
-- !private ["8TestTMBD5MovieV", "backdrop_path"]
 - !private ["8TestTMBD5MovieV", "id"]
+- !private ["8TestTMBD5MovieV", "poster_path"]
 - !private ["8TestTMBD5MovieV", "release_date"]
 - !private ["8TestTMBD5MovieV", "title"]
 - !private ["8TestTMBD5MovieV", "vote_average"]
@@ -568,9 +586,9 @@ depends-member:
 - ["8TestTMBD25MoviesTableViewControllerC", "updateSearchResultsForSearchController"]
 - ["8TestTMBD25MoviesTableViewControllerC", "viewDidLoad"]
 - !private ["SM", "append"]
-- !private ["SM", "backdrop_path"]
 - !private ["SM", "count"]
 - !private ["SM", "id"]
+- !private ["SM", "poster_path"]
 - !private ["SM", "release_date"]
 - !private ["SM", "removeAll"]
 - !private ["SM", "row"]
@@ -787,9 +805,9 @@ depends-member:
 - !private ["Sq", "reloadData"]
 - !private ["Sq", "text"]
 - !private ["Sk", "append"]
-- !private ["Sk", "backdrop_path"]
 - !private ["Sk", "count"]
 - !private ["Sk", "id"]
+- !private ["Sk", "poster_path"]
 - !private ["Sk", "release_date"]
 - !private ["Sk", "removeAll"]
 - !private ["Sk", "row"]
@@ -797,9 +815,9 @@ depends-member:
 - !private ["Sk", "title"]
 - !private ["Sk", "vote_average"]
 - !private ["Sm", "append"]
-- !private ["Sm", "backdrop_path"]
 - !private ["Sm", "count"]
 - !private ["Sm", "id"]
+- !private ["Sm", "poster_path"]
 - !private ["Sm", "release_date"]
 - !private ["Sm", "removeAll"]
 - !private ["Sm", "subscript"]
@@ -809,9 +827,9 @@ depends-member:
 - !private ["10Foundation20ReferenceConvertibleP", "row"]
 - !private ["10Kingfisher8ResourceP", "init"]
 - !private ["ST", "append"]
-- !private ["ST", "backdrop_path"]
 - !private ["ST", "count"]
 - !private ["ST", "id"]
+- !private ["ST", "poster_path"]
 - !private ["ST", "release_date"]
 - !private ["ST", "removeAll"]
 - !private ["ST", "row"]
@@ -1070,6 +1088,17 @@ depends-member:
 - !private ["So27UIGestureRecognizerDelegateP", "voteCell"]
 - !private ["So11UIImageViewC", "kf"]
 - !private ["So7UILabelC", "text"]
+- !private ["So24UILargeContentViewerItemP", "delegate"]
+- !private ["So24UILargeContentViewerItemP", "dequeueReusableCell"]
+- !private ["So24UILargeContentViewerItemP", "idCell"]
+- !private ["So24UILargeContentViewerItemP", "imageCell"]
+- !private ["So24UILargeContentViewerItemP", "kf"]
+- !private ["So24UILargeContentViewerItemP", "placeholder"]
+- !private ["So24UILargeContentViewerItemP", "releaseCell"]
+- !private ["So24UILargeContentViewerItemP", "reloadData"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- !private ["So24UILargeContentViewerItemP", "titlteCell"]
+- !private ["So24UILargeContentViewerItemP", "voteCell"]
 - !private ["So22UINavigationControllerC", "pushViewController"]
 - !private ["So16UINavigationItemC", "searchController"]
 - !private ["So30UIPasteConfigurationSupportingP", "UISearchController"]
@@ -1685,9 +1714,9 @@ depends-member:
 - !private ["10Foundation3URLV", "init"]
 - !private ["9Alamofire14URLConvertibleP", "init"]
 - !private ["s14_ArrayProtocolP", "append"]
-- !private ["s14_ArrayProtocolP", "backdrop_path"]
 - !private ["s14_ArrayProtocolP", "count"]
 - !private ["s14_ArrayProtocolP", "id"]
+- !private ["s14_ArrayProtocolP", "poster_path"]
 - !private ["s14_ArrayProtocolP", "release_date"]
 - !private ["s14_ArrayProtocolP", "removeAll"]
 - !private ["s14_ArrayProtocolP", "subscript"]
@@ -1695,9 +1724,9 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "vote_average"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s24_DestructorSafeContainerP", "append"]
-- !private ["s24_DestructorSafeContainerP", "backdrop_path"]
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s24_DestructorSafeContainerP", "id"]
+- !private ["s24_DestructorSafeContainerP", "poster_path"]
 - !private ["s24_DestructorSafeContainerP", "release_date"]
 - !private ["s24_DestructorSafeContainerP", "removeAll"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
@@ -1762,6 +1791,56 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "updateSearchResultsForSearchController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "voteCell"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UISearchController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIStoryboard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "configureSearchController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dequeueReusableCell"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dimsBackgroundDuringPresentation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "i"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "idCell"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imageCell"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiateViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isTopMovie"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kf"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "movie"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "movies"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "moviesList"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "placeholder"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "position"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "positionForBar"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "presenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pushViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "releaseCell"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "reloadData"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "searchBar"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "searchBarBookmarkButtonClicked"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "searchBarCancelButtonClicked"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "searchBarResultsListButtonClicked"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "searchBarSearchButtonClicked"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "searchBarShouldBeginEditing"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "searchBarShouldEndEditing"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "searchBarTextDidBeginEditing"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "searchBarTextDidEndEditing"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "searchController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "searchMovie"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "searchResultsUpdater"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showDetails"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showMoviesList"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showSearchMovie"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tableView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "titlteCell"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "updateSearchResults"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "updateSearchResultsForSearchController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "voteCell"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
@@ -1782,6 +1861,8 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "titlteCell"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "voteCell"]
 depends-nominal:
+- !private "10Accelerate0A6BufferP"
+- !private "10Accelerate0A13MutableBufferP"
 - !private "Sa"
 - !private "s10ArraySliceV"
 - !private "SK"
@@ -1844,6 +1925,7 @@ depends-nominal:
 - !private "So27UIGestureRecognizerDelegateP"
 - !private "So11UIImageViewC"
 - !private "So7UILabelC"
+- !private "So24UILargeContentViewerItemP"
 - !private "So22UINavigationControllerC"
 - !private "So16UINavigationItemC"
 - "So30UIPasteConfigurationSupportingP"
@@ -1879,29 +1961,43 @@ depends-nominal:
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - !private "s21_ObjectiveCBridgeableP"
 - !private "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
-- "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WatchKit.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
@@ -1909,21 +2005,19 @@ depends-external:
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WatchKit.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "fc05ed82482d00ca4066d31790b508a3"

@@ -14,6 +14,7 @@ class DetailsViewController: UIViewController {
     
     @IBOutlet weak var detailTitleLabel: UILabel!
     @IBOutlet weak var detailDescLabel: UILabel!
+    @IBOutlet weak var detailImageView: UIImageView!
     
     
     override func viewDidLoad() {
@@ -21,6 +22,12 @@ class DetailsViewController: UIViewController {
         
         detailDescLabel.text = movie?.overview
         detailTitleLabel.text = movie?.title
+        if let finalURL = movie?.poster_path {
+            let resource = URL(string: "https://image.tmdb.org/t/p/w500/\(finalURL)")!
+            detailImageView.kf.setImage(with: resource)
+    
+        }
+        // detailImageView.kf.setImage(with: movie?.poster_path)
 
     }
     

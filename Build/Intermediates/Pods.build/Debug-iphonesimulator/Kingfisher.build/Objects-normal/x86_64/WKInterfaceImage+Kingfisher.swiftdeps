@@ -2,272 +2,58 @@
 provides-top-level:
 provides-nominal:
 provides-member:
-- ["10Kingfisher0A7WrapperV", ""]
-- ["10Kingfisher0A7WrapperV", "setImage"]
-- ["10Kingfisher0A7WrapperV", "setImage"]
-- ["10Kingfisher0A7WrapperV", "cancelDownloadTask"]
-- ["10Kingfisher0A7WrapperV", "taskIdentifier"]
-- ["10Kingfisher0A7WrapperV", "webURL"]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "!"
-- !private "+"
-- !private "=="
-- !private "??"
-- "AssignmentPrecedence"
-- !private "Box"
-- !private "CallbackQueue"
-- "DownloadProgressBlock"
-- "DownloadTask"
-- !private "ImageLoadingProgressSideEffect"
-- !private "ImageProgressiveProvider"
-- "KFCrossPlatformImage"
-- "KingfisherError"
-- !private "KingfisherManager"
-- "KingfisherOptionsInfo"
-- !private "KingfisherParsedOptionsInfo"
-- "KingfisherWrapper"
-- "Resource"
-- "Result"
-- "RetrieveImageResult"
-- "Source"
-- "URL"
-- "Void"
-- "WKInterfaceImage"
-- !private "getAssociatedObject"
-- !private "imageTaskKey"
-- !private "setRetainedAssociatedObject"
-- !private "taskIdentifierKey"
 depends-member:
-- !private ["Sa", "empty"]
-- !private ["Sa", "forEach"]
-- !private ["SK", "empty"]
-- !private ["SK", "forEach"]
-- !private ["10Kingfisher3BoxC", "init"]
-- !private ["10Kingfisher3BoxC", "value"]
-- !private ["s7CVarArgP", "empty"]
-- !private ["s7CVarArgP", "forEach"]
-- !private ["s7CVarArgP", "setImage"]
-- !private ["10Kingfisher13CallbackQueueO", "execute"]
-- !private ["10Kingfisher13CallbackQueueO", "mainCurrentOrAsync"]
-- !private ["Sl", "empty"]
-- !private ["Sl", "forEach"]
-- !private ["10Foundation15ContiguousBytesP", "empty"]
-- !private ["10Foundation15ContiguousBytesP", "forEach"]
-- !private ["s28CustomDebugStringConvertibleP", "empty"]
-- !private ["s28CustomDebugStringConvertibleP", "forEach"]
-- !private ["s28CustomDebugStringConvertibleP", "map"]
-- !private ["s28CustomDebugStringConvertibleP", "setImage"]
-- !private ["10Foundation13CustomNSErrorP", "ImageSettingErrorReason"]
-- !private ["10Foundation13CustomNSErrorP", "imageSettingError"]
-- !private ["s17CustomReflectableP", "empty"]
-- !private ["s17CustomReflectableP", "forEach"]
-- !private ["s17CustomReflectableP", "map"]
-- !private ["s23CustomStringConvertibleP", "empty"]
-- !private ["s23CustomStringConvertibleP", "forEach"]
-- !private ["s23CustomStringConvertibleP", "setImage"]
-- !private ["10Foundation12DataProtocolP", "empty"]
-- !private ["10Foundation12DataProtocolP", "forEach"]
-- !private ["10Kingfisher23DataReceivingSideEffectP", "init"]
-- !private ["10Kingfisher23DataReceivingSideEffectP", "onShouldApply"]
-- !private ["Se", "empty"]
-- !private ["Se", "forEach"]
-- !private ["Se", "map"]
-- !private ["10Kingfisher12DownloadTaskV", "cancel"]
-- !private ["SE", "empty"]
-- !private ["SE", "forEach"]
-- !private ["SE", "map"]
-- !private ["SQ", "empty"]
-- !private ["SQ", "failure"]
-- !private ["SQ", "forEach"]
-- !private ["SQ", "get"]
-- !private ["SQ", "map"]
-- !private ["SQ", "setImage"]
-- !private ["SQ", "success"]
-- !private ["s5ErrorP", "ImageSettingErrorReason"]
-- !private ["s5ErrorP", "imageSettingError"]
-- !private ["s25ExpressibleByArrayLiteralP", "empty"]
-- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
-- !private ["s23ExpressibleByNilLiteralP", "map"]
-- !private ["SH", "empty"]
-- !private ["SH", "failure"]
-- !private ["SH", "forEach"]
-- !private ["SH", "get"]
-- !private ["SH", "map"]
-- !private ["SH", "setImage"]
-- !private ["SH", "success"]
-- ["10Kingfisher6SourceO10IdentifierO", "Value"]
-- !private ["10Kingfisher6SourceO10IdentifierO", "next"]
-- !private ["10Kingfisher30ImageLoadingProgressSideEffectC", "deinit"]
-- !private ["10Kingfisher30ImageLoadingProgressSideEffectC", "init"]
-- !private ["10Kingfisher24ImageProgressiveProviderC", "deinit"]
-- !private ["10Kingfisher24ImageProgressiveProviderC", "init"]
-- !private ["10Kingfisher0A5ErrorO012ImageSettingB6ReasonO", "emptySource"]
-- !private ["10Kingfisher0A5ErrorO012ImageSettingB6ReasonO", "notCurrentSourceTask"]
-- !private ["10Kingfisher0A5ErrorO", "ImageSettingErrorReason"]
-- ["10Kingfisher0A5ErrorO", "deinit"]
-- !private ["10Kingfisher0A5ErrorO", "imageSettingError"]
-- !private ["10Kingfisher0A7ManagerC", "defaultOptions"]
-- !private ["10Kingfisher0A7ManagerC", "retrieveImage"]
-- !private ["10Kingfisher0A7ManagerC", "shared"]
-- !private ["10Kingfisher0A17ParsedOptionsInfoV", "init"]
-- !private ["10Kingfisher0A17ParsedOptionsInfoV", "keepCurrentImageWhileLoading"]
-- !private ["10Kingfisher0A17ParsedOptionsInfoV", "onDataReceived"]
-- !private ["10Kingfisher0A17ParsedOptionsInfoV", "onFailureImage"]
-- !private ["10Kingfisher0A7WrapperV", "Box"]
-- !private ["10Kingfisher0A7WrapperV", "CallbackQueue"]
-- ["10Kingfisher0A7WrapperV", "DownloadProgressBlock"]
-- ["10Kingfisher0A7WrapperV", "DownloadTask"]
-- !private ["10Kingfisher0A7WrapperV", "ImageLoadingProgressSideEffect"]
-- !private ["10Kingfisher0A7WrapperV", "ImageProgressiveProvider"]
-- ["10Kingfisher0A7WrapperV", "KFCrossPlatformImage"]
-- ["10Kingfisher0A7WrapperV", "KingfisherError"]
-- !private ["10Kingfisher0A7WrapperV", "KingfisherManager"]
-- ["10Kingfisher0A7WrapperV", "KingfisherOptionsInfo"]
-- !private ["10Kingfisher0A7WrapperV", "KingfisherParsedOptionsInfo"]
-- ["10Kingfisher0A7WrapperV", "Resource"]
-- ["10Kingfisher0A7WrapperV", "Result"]
-- ["10Kingfisher0A7WrapperV", "RetrieveImageResult"]
-- ["10Kingfisher0A7WrapperV", "Source"]
-- ["10Kingfisher0A7WrapperV", "URL"]
-- ["10Kingfisher0A7WrapperV", "Void"]
-- ["10Kingfisher0A7WrapperV", "WKInterfaceImage"]
-- !private ["10Kingfisher0A7WrapperV", "base"]
-- ["10Kingfisher0A7WrapperV", "cancelDownloadTask"]
-- !private ["10Kingfisher0A7WrapperV", "getAssociatedObject"]
-- !private ["10Kingfisher0A7WrapperV", "imageTask"]
-- !private ["10Kingfisher0A7WrapperV", "imageTaskKey"]
-- ["10Kingfisher0A7WrapperV", "setImage"]
-- !private ["10Kingfisher0A7WrapperV", "setRetainedAssociatedObject"]
-- ["10Kingfisher0A7WrapperV", "taskIdentifier"]
-- !private ["10Kingfisher0A7WrapperV", "taskIdentifierKey"]
-- ["10Kingfisher0A7WrapperV", "webURL"]
-- !private ["10Foundation14LocalizedErrorP", "ImageSettingErrorReason"]
-- !private ["10Foundation14LocalizedErrorP", "imageSettingError"]
-- !private ["SM", "empty"]
-- !private ["SM", "forEach"]
-- !private ["10Foundation19MutableDataProtocolP", "empty"]
-- !private ["10Foundation19MutableDataProtocolP", "forEach"]
-- !private ["So8NSObjectC", "setImage"]
-- !private ["So8NSObjectP", "setImage"]
-- !private ["Sq", "map"]
-- !private ["Sk", "empty"]
-- !private ["Sk", "forEach"]
-- !private ["Sm", "empty"]
-- !private ["Sm", "forEach"]
-- !private ["10Kingfisher8ResourceP", "network"]
-- !private ["s6ResultO", "failure"]
-- !private ["s6ResultO", "get"]
-- !private ["s6ResultO", "success"]
-- !private ["10Kingfisher19RetrieveImageResultV", "image"]
-- !private ["ST", "empty"]
-- !private ["ST", "forEach"]
-- ["10Kingfisher6SourceO", "Identifier"]
-- !private ["10Kingfisher6SourceO", "network"]
-- !private ["So17WKImageAnimatableP", "setImage"]
-- !private ["So16WKInterfaceImageC", "setImage"]
-- !private ["So17WKInterfaceObjectC", "setImage"]
-- !private ["s14_ArrayProtocolP", "empty"]
-- !private ["s14_ArrayProtocolP", "forEach"]
-- !private ["s24_DestructorSafeContainerP", "empty"]
-- !private ["s24_DestructorSafeContainerP", "forEach"]
-- !private ["s19_HasContiguousBytesP", "empty"]
-- !private ["s19_HasContiguousBytesP", "forEach"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "empty"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "setImage"]
-- !private ["s21_ObjectiveCBridgeableP", "empty"]
-- !private ["s21_ObjectiveCBridgeableP", "forEach"]
-- !private ["s21_ObjectiveCBridgeableP", "map"]
 depends-nominal:
-- !private "Sa"
-- !private "SK"
-- !private "10Kingfisher3BoxC"
-- !private "s7CVarArgP"
-- !private "10Kingfisher13CallbackQueueO"
-- !private "Sl"
-- !private "10Foundation15ContiguousBytesP"
-- !private "s28CustomDebugStringConvertibleP"
-- !private "10Foundation13CustomNSErrorP"
-- !private "s17CustomReflectableP"
-- !private "s23CustomStringConvertibleP"
-- !private "10Foundation12DataProtocolP"
-- !private "10Kingfisher23DataReceivingSideEffectP"
-- !private "Se"
-- !private "10Kingfisher12DownloadTaskV"
-- !private "SE"
-- !private "SQ"
-- !private "s5ErrorP"
-- !private "s25ExpressibleByArrayLiteralP"
-- !private "s23ExpressibleByNilLiteralP"
-- !private "SH"
-- "10Kingfisher6SourceO10IdentifierO"
-- !private "10Kingfisher30ImageLoadingProgressSideEffectC"
-- !private "10Kingfisher24ImageProgressiveProviderC"
-- !private "10Kingfisher0A5ErrorO012ImageSettingB6ReasonO"
-- "10Kingfisher0A5ErrorO"
-- !private "10Kingfisher0A7ManagerC"
-- !private "10Kingfisher0A17ParsedOptionsInfoV"
-- "10Kingfisher0A7WrapperV"
-- !private "10Foundation14LocalizedErrorP"
-- !private "SM"
-- !private "10Foundation19MutableDataProtocolP"
-- !private "So8NSObjectC"
-- !private "So8NSObjectP"
-- !private "Sq"
-- !private "Sk"
-- !private "Sm"
-- !private "10Kingfisher8ResourceP"
-- !private "s6ResultO"
-- !private "10Kingfisher19RetrieveImageResultV"
-- !private "ST"
-- "10Kingfisher6SourceO"
-- !private "So17WKImageAnimatableP"
-- !private "So16WKInterfaceImageC"
-- !private "So17WKInterfaceObjectC"
-- !private "s14_ArrayProtocolP"
-- !private "s24_DestructorSafeContainerP"
-- !private "s19_HasContiguousBytesP"
-- !private "s35_HasCustomAnyHashableRepresentationP"
-- !private "10Foundation27_KeyValueCodingAndObservingP"
-- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Accelerate.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WatchKit.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Accelerate.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/os.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Pods/Kingfisher/Sources/Kingfisher.h"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Intermediates/Pods.build/Debug-iphonesimulator/Kingfisher.build/unextended-module.modulemap"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WatchKit.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "035282766be7a533aa8b8566f49284c6"

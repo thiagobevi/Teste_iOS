@@ -22,11 +22,7 @@ class MoviesListService: MovieListServiceProtocol {
     }
     
     var token: Token?
-    let headers = ["content-type": "application/json"]
-
-    
-    var tokenAuth = "https://api.themoviedb.org/3/authentication/token/validate_with_login?api_key=4f3cb82e06a1124218f505eca21fa375"
-    var popularURL = "https://api.themoviedb.org/3/movie/popular?api_key=4f3cb82e06a1124218f505eca21fa375&language=en-US&page="
+    var popularURL = "https://api.themoviedb.org/3/movie/upcoming?api_key=4f3cb82e06a1124218f505eca21fa375&language=en-US&page="
     
     func moviesList(page: Int, completion: @escaping (MovieResponse?) -> ())  {
         

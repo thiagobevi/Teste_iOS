@@ -1,12 +1,12 @@
-version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
-options: "8055b0fb1c785cbbc585ab5209546e60"
-build_time: [1579618489, 471307000]
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "13f2b5e33d3061aa1e98476bc46cee3c"
+build_time: [1579875405, 464022000]
 inputs:
   "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/Model/MovieModel.swift": [1579182703, 17507822]
-  "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/MoviesList/MoviesTableViewController.swift": [1579618488, 720636136]
+  "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/MoviesList/MoviesTableViewController.swift": [1579875127, 863544930]
   "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/MoviesList/MoviesListView.swift": [1579283847, 634326606]
-  "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/MovieDetails/DetailsViewController.swift": [1579182703, 64550399]
+  "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/MovieDetails/DetailsViewController.swift": [1579875404, 461039709]
   "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/MoviesList/MoviesListPresenter.swift": [1579618488, 744118610]
-  "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/MoviesList/MoviesListService.swift": [1579269388, 952876573]
+  "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/MoviesList/MoviesListService.swift": [1579875127, 878667796]
   "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/Model/TableViewCell.swift": [1579182703, 16570773]
   "/Users/ThiagoBevi/Developer/Teste_iOS/TestTMBD/AppDelegate.swift": [1579544538, 621278335]
