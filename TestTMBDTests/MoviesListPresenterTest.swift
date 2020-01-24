@@ -54,14 +54,6 @@ final class MoviesListPresenterTeste: QuickSpec {
                 }
             
                     
-//                describe("Tap Load More Movies button") {
-//
-//                        it("Should do new request with next page value")  {
-//                            sut.moviesList(page: 2)
-//                        }
-//
-//
-//                    }
 
                 describe("") {
                 
@@ -80,21 +72,7 @@ final class MoviesListPresenterTeste: QuickSpec {
 
                     }
                 }
-//
-//                    context("Tap Cancel button after returns Search movie list") {
-//                        sut.
-//                        it("Must removeAll from movies array") {
-//
-//                        }
-//
-//                        it("Should do a new request on Popular Movies endpoint") {
-//                            sut
-//                            
-//                            expect(view.showMoviesListCalled).to(beTrue())
-//                        }
-//
-//
-//                    }
+
             }
         }
     }

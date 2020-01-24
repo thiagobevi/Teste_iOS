@@ -19,6 +19,7 @@ class MoviesTableViewController: UITableViewController {
     var isTopMovie = true
     var i = 2
     var text = ""
+    var searchTap = false
     
     // MARK: Life Cycle
     
@@ -86,8 +87,12 @@ extension MoviesTableViewController {
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if !searchTap {
+            return "Upcoming Movies"
+        } else {
+            return "Searched Movies"
+        }
         
-        return "Upcoming Movies"
     }
     
 }
@@ -148,6 +153,8 @@ extension MoviesTableViewController: UISearchResultsUpdating, UISearchBarDelegat
         isTopMovie = false
         self.text = searchBar.text!
         presenter?.searchMovie(text: text, page: 1)
+        searchTap = true
+        
         
     }
     
@@ -155,6 +162,7 @@ extension MoviesTableViewController: UISearchResultsUpdating, UISearchBarDelegat
         movies.removeAll()
         presenter?.moviesList(page: 1)
         tableView.reloadData()
+        searchTap = false
     }
 }
 
