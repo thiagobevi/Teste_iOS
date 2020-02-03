@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
-   uuid = "FEC72E68-B8DC-4E6D-ABD4-7FA65E0A9845"
+   uuid = "BD52C26B-2C72-4EBE-B2AF-2CD0089B9F19"
    type = "0"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "799B75DB-C968-4BFD-879D-49E0B539E135"
+            uuid = "E204C60D-93C9-49C2-A666-ED29AC89D7E0"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TestTMBDTests/MoviesListPresenterTest.swift"
-            timestampString = "601311336.217507"
+            filePath = "TestTMBD/MoviesList/MoviesTableViewController.swift"
+            timestampString = "601311336.216805"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
-            landmarkName = "spec()"
-            landmarkType = "7">
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "MoviesTableViewController"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "CC75CA6C-3892-4F56-A5C4-FCA775FAC33F"
+            uuid = "A75826E4-22B5-4A71-9F74-90D0CFF9AE50"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TestTMBDTests/MoviesListPresenterTest.swift"
-            timestampString = "601311336.217986"
+            filePath = "TestTMBD/MoviesList/MoviesTableViewController.swift"
+            timestampString = "601311336.217114"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
-            landmarkName = "spec()"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "attachView(view:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

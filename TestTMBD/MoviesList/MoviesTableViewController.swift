@@ -142,7 +142,7 @@ extension MoviesTableViewController: UISearchResultsUpdating, UISearchBarDelegat
     func configureSearchController() {
         let searchController = UISearchController(searchResultsController: nil)
         searchController.searchResultsUpdater = self
-        searchController.searchBar.placeholder = "AAAAAw"
+        searchController.searchBar.placeholder = "Search Movies"
         searchController.searchBar.delegate = self
         searchController.dimsBackgroundDuringPresentation = false
         navigationItem.searchController = searchController
@@ -154,8 +154,6 @@ extension MoviesTableViewController: UISearchResultsUpdating, UISearchBarDelegat
         self.text = searchBar.text!
         presenter?.searchMovie(text: text, page: 1)
         searchTap = true
-        
-        
     }
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {

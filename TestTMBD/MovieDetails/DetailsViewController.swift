@@ -16,7 +16,6 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var detailDescLabel: UILabel!
     @IBOutlet weak var detailImageView: UIImageView!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,8 +26,6 @@ class DetailsViewController: UIViewController {
             detailImageView.kf.setImage(with: resource)
     
         }
-        // detailImageView.kf.setImage(with: movie?.poster_path)
-
     }
     
 

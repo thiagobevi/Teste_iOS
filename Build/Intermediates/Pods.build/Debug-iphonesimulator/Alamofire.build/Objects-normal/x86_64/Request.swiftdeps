@@ -570,7 +570,6 @@ depends-member:
 - ["9Alamofire15DownloadRequestC", "URLSession"]
 - ["9Alamofire15DownloadRequestC", "URLSessionTask"]
 - ["9Alamofire15DownloadRequestC", "cancel"]
-- ["9Alamofire15DownloadRequestC", "deinit"]
 - !private ["9Alamofire15DownloadRequestC", "delegate"]
 - ["9Alamofire15DownloadRequestC", "downloadDelegate"]
 - ["9Alamofire15DownloadRequestC", "downloadProgress"]
