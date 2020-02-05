@@ -20,15 +20,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
     
+        // MARK: Tela inicial - Lista Filmes Lançamentos
+        
         let controller = storyboard.instantiateViewController(withIdentifier: "MoviesTableViewController") as! MoviesTableViewController
         let presenter = MoviesListPresenter(service: MoviesListService())
         controller.presenter = presenter
         presenter.atatchView(view: controller)
-        
         let navigationController = UINavigationController(rootViewController: controller)
         
+        // MARK: Tela Favoritos
+        
+        let favoriteController = storyboard.instantiateViewController(withIdentifier: "FavoritesTableViewController") as! FavoritesTableViewController
+        let favoritePresenter = FavoritesPresenter(service: FavoritesService())
+        favoriteController.presenter = favoritePresenter
+        favoritePresenter.atachView(view: favoriteController)
+        let favoriteNavigationController = UINavigationController(rootViewController: favoriteController)
+        
+      // MARK: TabBar
+        
+        let tabBarController = UITabBarController()
+        tabBarController.viewControllers = [navigationController, favoriteNavigationController]
+        
+        let item1 = UITabBarItem(tabBarSystemItem: .mostViewed, tag: 1)
+        let item2 = UITabBarItem(tabBarSystemItem: .favorites, tag: 2)
+        
+        navigationController.tabBarItem = item1
+        favoriteNavigationController.tabBarItem = item2
+        
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = navigationController
+        window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
         
         return true

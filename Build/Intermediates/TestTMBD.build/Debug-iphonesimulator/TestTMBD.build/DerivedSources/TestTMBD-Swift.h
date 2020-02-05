@@ -245,6 +245,20 @@ SWIFT_CLASS("_TtC8TestTMBD21DetailsViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITableView;
+
+SWIFT_CLASS("_TtC8TestTMBD28FavoritesTableViewController")
+@interface FavoritesTableViewController : UITableViewController
+- (void)viewDidLoad;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
 @class UISearchBar;
 
 SWIFT_CLASS("_TtC8TestTMBD25MoviesTableViewController")
@@ -265,7 +279,6 @@ SWIFT_CLASS("_TtC8TestTMBD25MoviesTableViewController")
 - (void)searchBarCancelButtonClicked:(UISearchBar * _Nonnull)searchBar;
 @end
 
-@class UITableView;
 
 @interface MoviesTableViewController (SWIFT_EXTENSION(TestTMBD))
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;

@@ -90,7 +90,6 @@ depends-member:
 - ["10Kingfisher11DiskStorageO7BackendC", "cacheFileName"]
 - ["10Kingfisher11DiskStorageO7BackendC", "cacheFileURL"]
 - ["10Kingfisher11DiskStorageO7BackendC", "config"]
-- ["10Kingfisher11DiskStorageO7BackendC", "deinit"]
 - ["10Kingfisher11DiskStorageO7BackendC", "directoryURL"]
 - ["10Kingfisher11DiskStorageO7BackendC", "init"]
 - ["10Kingfisher11DiskStorageO7BackendC", "isCached"]

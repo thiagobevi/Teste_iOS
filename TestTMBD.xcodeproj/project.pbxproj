@@ -11,6 +11,10 @@
 		DB0DAF67C171E7D8EECE0623 /* Pods_TestTMBD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0316BD3B397406145F1B3861 /* Pods_TestTMBD.framework */; };
 		DB94D98E23D0D72E00617C30 /* TMDB_Teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94D98D23D0D72E00617C30 /* TMDB_Teste.swift */; };
 		DB94D99023D0DFBE00617C30 /* MoviesListPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94D98F23D0DFBE00617C30 /* MoviesListPresenterTest.swift */; };
+		DBB2E1EF23EB4EBC00FACCCD /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB2E1EE23EB4EBC00FACCCD /* FavoritesTableViewController.swift */; };
+		DBB2E1F123EB4EE900FACCCD /* FavoritesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB2E1F023EB4EE900FACCCD /* FavoritesPresenter.swift */; };
+		DBB2E1F323EB4EF900FACCCD /* FavoritesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB2E1F223EB4EF900FACCCD /* FavoritesService.swift */; };
+		DBB2E1F523EB4F0B00FACCCD /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB2E1F423EB4F0B00FACCCD /* FavoritesView.swift */; };
 		DBB5ECFC23BA3DF500BD1996 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB5ECFB23BA3DF500BD1996 /* DetailsViewController.swift */; };
 		DBF5B02423AABDB500DBBE90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF5B02323AABDB500DBBE90 /* AppDelegate.swift */; };
 		DBF5B02923AABDB500DBBE90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF5B02723AABDB500DBBE90 /* Main.storyboard */; };
@@ -42,6 +46,10 @@
 		9782CC792B9CCA8E6BB0C288 /* Pods-TestTMBDTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTMBDTests.debug.xcconfig"; path = "Target Support Files/Pods-TestTMBDTests/Pods-TestTMBDTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DB94D98D23D0D72E00617C30 /* TMDB_Teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_Teste.swift; sourceTree = "<group>"; };
 		DB94D98F23D0DFBE00617C30 /* MoviesListPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListPresenterTest.swift; sourceTree = "<group>"; };
+		DBB2E1EE23EB4EBC00FACCCD /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		DBB2E1F023EB4EE900FACCCD /* FavoritesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesPresenter.swift; sourceTree = "<group>"; };
+		DBB2E1F223EB4EF900FACCCD /* FavoritesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesService.swift; sourceTree = "<group>"; };
+		DBB2E1F423EB4F0B00FACCCD /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		DBB5ECFB23BA3DF500BD1996 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		DBF5B02023AABDB500DBBE90 /* TestTMBD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTMBD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF5B02323AABDB500DBBE90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +99,17 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DBB2E1ED23EB4E8F00FACCCD /* FavoriteMovies */ = {
+			isa = PBXGroup;
+			children = (
+				DBB2E1F423EB4F0B00FACCCD /* FavoritesView.swift */,
+				DBB2E1EE23EB4EBC00FACCCD /* FavoritesTableViewController.swift */,
+				DBB2E1F023EB4EE900FACCCD /* FavoritesPresenter.swift */,
+				DBB2E1F223EB4EF900FACCCD /* FavoritesService.swift */,
+			);
+			path = FavoriteMovies;
+			sourceTree = "<group>";
+		};
 		DBB5ECFA23BA3DC100BD1996 /* MovieDetails */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +141,7 @@
 		DBF5B02223AABDB500DBBE90 /* TestTMBD */ = {
 			isa = PBXGroup;
 			children = (
+				DBB2E1ED23EB4E8F00FACCCD /* FavoriteMovies */,
 				DBB5ECFA23BA3DC100BD1996 /* MovieDetails */,
 				DBF5B04E23B4F68800DBBE90 /* Model */,
 				DBF5B04D23B108B300DBBE90 /* MoviesList */,
@@ -360,11 +380,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB2E1F123EB4EE900FACCCD /* FavoritesPresenter.swift in Sources */,
 				DBF5B05023B4F6A000DBBE90 /* MovieModel.swift in Sources */,
 				DBF5B04623B0FFA600DBBE90 /* MoviesTableViewController.swift in Sources */,
 				DBF5B04823B1087F00DBBE90 /* MoviesListView.swift in Sources */,
+				DBB2E1F323EB4EF900FACCCD /* FavoritesService.swift in Sources */,
+				DBB2E1EF23EB4EBC00FACCCD /* FavoritesTableViewController.swift in Sources */,
 				DBB5ECFC23BA3DF500BD1996 /* DetailsViewController.swift in Sources */,
 				DBF5B04A23B1089A00DBBE90 /* MoviesListPresenter.swift in Sources */,
+				DBB2E1F523EB4F0B00FACCCD /* FavoritesView.swift in Sources */,
 				DBF5B04C23B108AD00DBBE90 /* MoviesListService.swift in Sources */,
 				DBF5B05223B526C600DBBE90 /* TableViewCell.swift in Sources */,
 				DBF5B02423AABDB500DBBE90 /* AppDelegate.swift in Sources */,
