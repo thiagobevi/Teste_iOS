@@ -28,6 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         presenter.atatchView(view: controller)
         let navigationController = UINavigationController(rootViewController: controller)
         
+       
+        
         // MARK: Tela Favoritos
         
         let favoriteController = storyboard.instantiateViewController(withIdentifier: "FavoritesTableViewController") as! FavoritesTableViewController

@@ -11,7 +11,7 @@ import UIKit
 class DetailsViewController: UIViewController {
 
     var movie: Movie?
-    
+    let favoriteServie =  FavoritesService()
     @IBOutlet weak var detailTitleLabel: UILabel!
     @IBOutlet weak var detailDescLabel: UILabel!
     @IBOutlet weak var detailImageView: UIImageView!
@@ -24,10 +24,15 @@ class DetailsViewController: UIViewController {
         if let finalURL = movie?.poster_path {
             let resource = URL(string: "https://image.tmdb.org/t/p/w500/\(finalURL)")!
             detailImageView.kf.setImage(with: resource)
+            let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addFavorite))
+            addButton.title = "Save"
+            self.navigationItem.rightBarButtonItem = addButton
     
         }
     }
     
-
+    @objc func addFavorite() {
+        
+    }
 
 }

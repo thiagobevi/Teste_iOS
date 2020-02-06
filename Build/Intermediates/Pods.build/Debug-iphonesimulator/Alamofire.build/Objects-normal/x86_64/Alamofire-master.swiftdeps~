@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
 options: "156bd88853cd8238439b3da04ee4126d"
-build_time: [1580930956, 681424000]
+build_time: [1580935883, 57357000]
 inputs:
   "/Users/ThiagoBevi/Developer/Teste_iOS/Pods/Alamofire/Source/AFError.swift": [1579182543, 524947973]
   "/Users/ThiagoBevi/Developer/Teste_iOS/Pods/Alamofire/Source/Alamofire.swift": [1579182543, 525268659]

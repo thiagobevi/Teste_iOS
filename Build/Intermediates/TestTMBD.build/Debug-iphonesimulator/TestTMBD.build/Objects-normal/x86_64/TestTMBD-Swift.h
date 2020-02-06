@@ -241,6 +241,7 @@ SWIFT_CLASS("_TtC8TestTMBD21DetailsViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified detailDescLabel;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified detailImageView;
 - (void)viewDidLoad;
+- (void)addFavorite;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

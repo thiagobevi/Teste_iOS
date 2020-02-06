@@ -12,11 +12,13 @@ protocol FavoritesPresentable: class {
     func atachView(view: FavoritesView)
     func loadFavoriteMovies() -> [Movie]
     func deleteMovie(id: Int)
+    func createTableFavoritMovies()
+    func addFavoriteMovie()
     
 }
 
 class FavoritesPresenter: FavoritesPresentable {
-   
+
     private var favoritesView: FavoritesView?
     private var favoriteServiceProtocol: FavoritesServiceProtocol
     
@@ -29,14 +31,22 @@ class FavoritesPresenter: FavoritesPresentable {
     }
     
     func loadFavoriteMovies() -> [Movie] {
-        let favorieMovies = [Movie]()
-        return favorieMovies
+        
+        let favoriteMovies: [Movie] = favoriteServiceProtocol.readFavoriteMovieTable()
+        return favoriteMovies
     }
     
     func deleteMovie(id: Int) {
-        
+        favoriteServiceProtocol.deleteFavoritMovieRow()
     }
     
+    func createTableFavoritMovies() {
+        favoriteServiceProtocol.createTableMovie()
+     }
+     
+     func addFavoriteMovie() {
+        favoriteServiceProtocol.addFavoriteMovie()
+     }
 
     
     

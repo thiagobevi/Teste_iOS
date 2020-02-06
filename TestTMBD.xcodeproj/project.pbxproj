@@ -15,6 +15,7 @@
 		DBB2E1F123EB4EE900FACCCD /* FavoritesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB2E1F023EB4EE900FACCCD /* FavoritesPresenter.swift */; };
 		DBB2E1F323EB4EF900FACCCD /* FavoritesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB2E1F223EB4EF900FACCCD /* FavoritesService.swift */; };
 		DBB2E1F523EB4F0B00FACCCD /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB2E1F423EB4F0B00FACCCD /* FavoritesView.swift */; };
+		DBB2E1F723EC57A300FACCCD /* FavoritesPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB2E1F623EC57A300FACCCD /* FavoritesPresenterTest.swift */; };
 		DBB5ECFC23BA3DF500BD1996 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB5ECFB23BA3DF500BD1996 /* DetailsViewController.swift */; };
 		DBF5B02423AABDB500DBBE90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF5B02323AABDB500DBBE90 /* AppDelegate.swift */; };
 		DBF5B02923AABDB500DBBE90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF5B02723AABDB500DBBE90 /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		DBB2E1F023EB4EE900FACCCD /* FavoritesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesPresenter.swift; sourceTree = "<group>"; };
 		DBB2E1F223EB4EF900FACCCD /* FavoritesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesService.swift; sourceTree = "<group>"; };
 		DBB2E1F423EB4F0B00FACCCD /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		DBB2E1F623EC57A300FACCCD /* FavoritesPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesPresenterTest.swift; sourceTree = "<group>"; };
 		DBB5ECFB23BA3DF500BD1996 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		DBF5B02023AABDB500DBBE90 /* TestTMBD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTMBD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF5B02323AABDB500DBBE90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				DBF5B03A23AABDB700DBBE90 /* Info.plist */,
 				DB94D98D23D0D72E00617C30 /* TMDB_Teste.swift */,
 				DB94D98F23D0DFBE00617C30 /* MoviesListPresenterTest.swift */,
+				DBB2E1F623EC57A300FACCCD /* FavoritesPresenterTest.swift */,
 			);
 			path = TestTMBDTests;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB94D98E23D0D72E00617C30 /* TMDB_Teste.swift in Sources */,
+				DBB2E1F723EC57A300FACCCD /* FavoritesPresenterTest.swift in Sources */,
 				DB94D99023D0DFBE00617C30 /* MoviesListPresenterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

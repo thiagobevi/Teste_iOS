@@ -52,14 +52,10 @@ final class MoviesListPresenterTeste: QuickSpec {
                     }
                 
                 }
-            
-                    
-
+        
                 describe("") {
                 
                     context("Type a valid movie on SearchBar text field") {
-
-
 
                         it("Must return movie list that contains the typed text") {
                             var text = "Love"
@@ -67,7 +63,6 @@ final class MoviesListPresenterTeste: QuickSpec {
                             
                             expect(view.movies.isEmpty).to(beFalse())
                             expect(view.movies[0].title) == "Love"
-                            
                         }
 
                     }

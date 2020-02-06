@@ -18,7 +18,9 @@ class FavoritesTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter?.atachView(view: self)
-        presenter?.loadFavoriteMovies()
+        presenter?.createTableFavoritMovies()
+        favoriteMovies =  presenter?.loadFavoriteMovies()
+        
         
     }
 
@@ -26,12 +28,12 @@ class FavoritesTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return favoriteMovies?.count ?? 2
     }
 
   

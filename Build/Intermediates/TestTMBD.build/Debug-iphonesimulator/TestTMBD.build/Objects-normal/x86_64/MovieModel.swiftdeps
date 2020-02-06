@@ -14,7 +14,7 @@ depends-top-level:
 - "Codable"
 - "Double"
 - !private "FloatLiteralType"
-- "Int"
+- "Int32"
 - !private "IntegerLiteralType"
 - "Movie"
 - "MovieResponse"
@@ -106,7 +106,7 @@ depends-member:
 - !private ["s30KeyedEncodingContainerProtocolP", "encode"]
 - !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
 - ["8TestTMBD5MovieV", "Double"]
-- ["8TestTMBD5MovieV", "Int"]
+- ["8TestTMBD5MovieV", "Int32"]
 - ["8TestTMBD5MovieV", "String"]
 - ["8TestTMBD5MovieV", "backdrop_path"]
 - ["8TestTMBD5MovieV", "deinit"]
@@ -196,4 +196,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "9a97f8bdd969bdf02c029d6373469198"
+interface-hash: "582eb21ff7f1dcead3b8ae70a5344355"
