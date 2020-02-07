@@ -11,7 +11,7 @@ import UIKit
 class DetailsViewController: UIViewController {
 
     var movie: Movie?
-    let favoriteServie =  FavoritesService()
+    let favoriteServie = FavoritesService()
     @IBOutlet weak var detailTitleLabel: UILabel!
     @IBOutlet weak var detailDescLabel: UILabel!
     @IBOutlet weak var detailImageView: UIImageView!
@@ -32,7 +32,8 @@ class DetailsViewController: UIViewController {
     }
     
     @objc func addFavorite() {
-        
+        guard let movie = movie else { return }
+        favoriteServie.addFavoriteMovie(movie: movie)
     }
 
 }

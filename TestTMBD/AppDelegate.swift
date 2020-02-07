@@ -7,18 +7,19 @@
 //
 
 import UIKit
-
+import SQLite3
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var db: OpaquePointer?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
     
         if ProcessInfo.processInfo.environment["XCTestConfigurationFilePath"] != nil { return true }
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        createTableMovie()
     
         // MARK: Tela inicial - Lista Filmes Lançamentos
         
@@ -54,6 +55,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         
         return true
+    }
+    
+    func createTableMovie() {
+        let fileUrl =  try!
+            FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false).appendingPathComponent("FavoriteMovies.sqlite")
+        
+        if sqlite3_open(fileUrl.path, &db) != SQLITE_OK {
+            print("Error opening database")
+            return
+        } else {
+            let createTableQuery = "CREATE TABLE IF NOT EXISTS FavoriteMovies (id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, idTMDB INTEGER, release_date TEXT, overview TEXT, vote_average REAL, poster_path TEXT, backdrop_path TEXT )"
+            if sqlite3_exec(db, createTableQuery, nil, nil, nil) != SQLITE_OK {
+                print("Error creating Table")
+                return            
+            }
+        
+        }
+        print("All good")
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

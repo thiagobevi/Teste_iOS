@@ -12,8 +12,6 @@ protocol FavoritesPresentable: class {
     func atachView(view: FavoritesView)
     func loadFavoriteMovies() -> [Movie]
     func deleteMovie(id: Int)
-    func createTableFavoritMovies()
-    func addFavoriteMovie()
     
 }
 
@@ -40,13 +38,8 @@ class FavoritesPresenter: FavoritesPresentable {
         favoriteServiceProtocol.deleteFavoritMovieRow()
     }
     
-    func createTableFavoritMovies() {
-        favoriteServiceProtocol.createTableMovie()
-     }
      
-     func addFavoriteMovie() {
-        favoriteServiceProtocol.addFavoriteMovie()
-     }
+ 
 
     
     
