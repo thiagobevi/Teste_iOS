@@ -8,6 +8,7 @@
 
 import UIKit
 import Kingfisher
+import Kingfisher
 
 class FavoritesTableViewController: UITableViewController {
     
@@ -15,10 +16,12 @@ class FavoritesTableViewController: UITableViewController {
     var favoriteMovies: [Movie]?
     
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter?.atachView(view: self)
-        favoriteMovies =  presenter?.loadFavoriteMovies()
+        favoriteMovies = presenter?.loadFavoriteMovies()
     }
     // MARK: - Table view data source
     
@@ -29,10 +32,21 @@ class FavoritesTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return favoriteMovies?.count ?? 2
+        return favoriteMovies?.count ?? 0
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseCell2") as! FavoriteCell
+        cell.favoriteTitle.text = favoriteMovies?[indexPath.row].title
+        cell.favoriteReleaseDate.text = favoriteMovies?[indexPath.row].release_date
+        
+        if let finalURL = favoriteMovies?[indexPath.row].poster_path {
+            let resource = URL(string: "https://image.tmdb.org/t/p/w154/\(finalURL)")!
+            cell.imageView?.kf.setImage(with: resource)
+        }
+        return cell
     }
 }
-
 
 extension FavoritesTableViewController: FavoritesView {
     
@@ -41,11 +55,12 @@ extension FavoritesTableViewController: FavoritesView {
     }
     
     func loadFavorites() {
-        favoriteMovies = presenter?.loadFavoriteMovies()
+        presenter?.loadFavoriteMovies()
     }
     
     func deleteFavorite(id: Int) {
         presenter?.deleteMovie(id: id)
+        
     }
     
     

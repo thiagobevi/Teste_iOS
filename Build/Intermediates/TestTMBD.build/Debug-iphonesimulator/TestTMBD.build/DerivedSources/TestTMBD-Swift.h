@@ -246,6 +246,20 @@ SWIFT_CLASS("_TtC8TestTMBD21DetailsViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC8TestTMBD12FavoriteCell")
+@interface FavoriteCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified favoriteImage;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified favoriteTitle;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified favoriteID;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified favoriteReleaseDate;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified favoriteVote;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UITableView;
 
 SWIFT_CLASS("_TtC8TestTMBD28FavoritesTableViewController")
@@ -253,6 +267,7 @@ SWIFT_CLASS("_TtC8TestTMBD28FavoritesTableViewController")
 - (void)viewDidLoad;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;

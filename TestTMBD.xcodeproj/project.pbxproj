@@ -16,6 +16,8 @@
 		DBB2E1F323EB4EF900FACCCD /* FavoritesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB2E1F223EB4EF900FACCCD /* FavoritesService.swift */; };
 		DBB2E1F523EB4F0B00FACCCD /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB2E1F423EB4F0B00FACCCD /* FavoritesView.swift */; };
 		DBB2E1F723EC57A300FACCCD /* FavoritesPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB2E1F623EC57A300FACCCD /* FavoritesPresenterTest.swift */; };
+		DBB2E1F923F1A0FA00FACCCD /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB2E1F823F1A0F900FACCCD /* DataBase.swift */; };
+		DBB2E1FB23F1BFE500FACCCD /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB2E1FA23F1BFE500FACCCD /* FavoriteCell.swift */; };
 		DBB5ECFC23BA3DF500BD1996 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB5ECFB23BA3DF500BD1996 /* DetailsViewController.swift */; };
 		DBF5B02423AABDB500DBBE90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF5B02323AABDB500DBBE90 /* AppDelegate.swift */; };
 		DBF5B02923AABDB500DBBE90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF5B02723AABDB500DBBE90 /* Main.storyboard */; };
@@ -52,6 +54,8 @@
 		DBB2E1F223EB4EF900FACCCD /* FavoritesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesService.swift; sourceTree = "<group>"; };
 		DBB2E1F423EB4F0B00FACCCD /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		DBB2E1F623EC57A300FACCCD /* FavoritesPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesPresenterTest.swift; sourceTree = "<group>"; };
+		DBB2E1F823F1A0F900FACCCD /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		DBB2E1FA23F1BFE500FACCCD /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		DBB5ECFB23BA3DF500BD1996 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		DBF5B02023AABDB500DBBE90 /* TestTMBD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTMBD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF5B02323AABDB500DBBE90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +112,7 @@
 				DBB2E1EE23EB4EBC00FACCCD /* FavoritesTableViewController.swift */,
 				DBB2E1F023EB4EE900FACCCD /* FavoritesPresenter.swift */,
 				DBB2E1F223EB4EF900FACCCD /* FavoritesService.swift */,
+				DBB2E1FA23F1BFE500FACCCD /* FavoriteCell.swift */,
 			);
 			path = FavoriteMovies;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 		DBF5B04E23B4F68800DBBE90 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DBB2E1F823F1A0F900FACCCD /* DataBase.swift */,
 				DBF5B04F23B4F6A000DBBE90 /* MovieModel.swift */,
 				DBF5B05123B526C600DBBE90 /* TableViewCell.swift */,
 			);
@@ -385,10 +391,12 @@
 			files = (
 				DBB2E1F123EB4EE900FACCCD /* FavoritesPresenter.swift in Sources */,
 				DBF5B05023B4F6A000DBBE90 /* MovieModel.swift in Sources */,
+				DBB2E1F923F1A0FA00FACCCD /* DataBase.swift in Sources */,
 				DBF5B04623B0FFA600DBBE90 /* MoviesTableViewController.swift in Sources */,
 				DBF5B04823B1087F00DBBE90 /* MoviesListView.swift in Sources */,
 				DBB2E1F323EB4EF900FACCCD /* FavoritesService.swift in Sources */,
 				DBB2E1EF23EB4EBC00FACCCD /* FavoritesTableViewController.swift in Sources */,
+				DBB2E1FB23F1BFE500FACCCD /* FavoriteCell.swift in Sources */,
 				DBB5ECFC23BA3DF500BD1996 /* DetailsViewController.swift in Sources */,
 				DBF5B04A23B1089A00DBBE90 /* MoviesListPresenter.swift in Sources */,
 				DBB2E1F523EB4F0B00FACCCD /* FavoritesView.swift in Sources */,

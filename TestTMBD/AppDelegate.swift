@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if ProcessInfo.processInfo.environment["XCTestConfigurationFilePath"] != nil { return true }
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        createTableMovie()
+        Database.shared.openDatabase()
     
         // MARK: Tela inicial - Lista Filmes Lançamentos
         
@@ -32,9 +32,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
        
         
         // MARK: Tela Favoritos
-        
+        let database = Database.shared
         let favoriteController = storyboard.instantiateViewController(withIdentifier: "FavoritesTableViewController") as! FavoritesTableViewController
-        let favoritePresenter = FavoritesPresenter(service: FavoritesService())
+        let favoritePresenter = FavoritesPresenter(service: FavoritesService(database: database))
         favoriteController.presenter = favoritePresenter
         favoritePresenter.atachView(view: favoriteController)
         let favoriteNavigationController = UINavigationController(rootViewController: favoriteController)
@@ -57,23 +57,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
-    func createTableMovie() {
-        let fileUrl =  try!
-            FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false).appendingPathComponent("FavoriteMovies.sqlite")
-        
-        if sqlite3_open(fileUrl.path, &db) != SQLITE_OK {
-            print("Error opening database")
-            return
-        } else {
-            let createTableQuery = "CREATE TABLE IF NOT EXISTS FavoriteMovies (id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, idTMDB INTEGER, release_date TEXT, overview TEXT, vote_average REAL, poster_path TEXT, backdrop_path TEXT )"
-            if sqlite3_exec(db, createTableQuery, nil, nil, nil) != SQLITE_OK {
-                print("Error creating Table")
-                return            
-            }
-        
-        }
-        print("All good")
-    }
+
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
