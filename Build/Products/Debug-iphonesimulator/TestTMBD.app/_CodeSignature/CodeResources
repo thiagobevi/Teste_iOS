@@ -100,6 +100,18 @@
 		<data>
 		wfIg1yIN1RvK1sVTRRz/Np4mahc=
 		</data>
+		<key>Frameworks/SQLite.framework/Info.plist</key>
+		<data>
+		Gt8psSQ8B/v21ZLc24bril0XFOM=
+		</data>
+		<key>Frameworks/SQLite.framework/SQLite</key>
+		<data>
+		jA/Sw1Q3rkxrxuGymt1Ax9erflE=
+		</data>
+		<key>Frameworks/SQLite.framework/_CodeSignature/CodeResources</key>
+		<data>
+		JnURDBrKe21x0endKmWMqQ8jKsY=
+		</data>
 		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
 		<data>
 		OGPOMv0LkN+98GkggDQcBibUZk8=
@@ -366,6 +378,27 @@
 			<key>hash2</key>
 			<data>
 			UXtTJQhvpO5PDoSt0JjNVi1wV7be6+Ri60jl6mQFru0=
+			</data>
+		</dict>
+		<key>Frameworks/SQLite.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lsRmRGxDGMHEBON3PtzqvH9yp33cifuiY4zSJ3sc7UQ=
+			</data>
+		</dict>
+		<key>Frameworks/SQLite.framework/SQLite</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PbOHHWYNFepIFgWz1FE9fQG8fGVEdg/wGhDof8agaTI=
+			</data>
+		</dict>
+		<key>Frameworks/SQLite.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Oq2wTTn1z4KGIF7FSmpK6m6seuBr2e9g/vkx3av0Q2g=
 			</data>
 		</dict>
 		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>

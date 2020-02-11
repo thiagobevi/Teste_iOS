@@ -5,12 +5,16 @@ PODS:
   - Kingfisher/Core (5.12.0)
   - Nimble (8.0.4)
   - Quick (2.2.0)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
 
 DEPENDENCIES:
   - Alamofire
   - Kingfisher
   - Nimble
   - Quick
+  - SQLite.swift (~> 0.12.0)
 
 SPEC REPOS:
   trunk:
@@ -18,13 +22,15 @@ SPEC REPOS:
     - Kingfisher
     - Nimble
     - Quick
+    - SQLite.swift
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   Kingfisher: dc6e0f53bb5b12c3e75bedb0e01bbd7a640eea69
   Nimble: 18d5360282923225d62b09d781f63abc1a0111fc
   Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
 
-PODFILE CHECKSUM: a3ed712a5a5f16bf2e3e5c4359f6643f5f5128e9
+PODFILE CHECKSUM: b85059a6a6945f63c4c19de5409f494f251492f5
 
 COCOAPODS: 1.8.4

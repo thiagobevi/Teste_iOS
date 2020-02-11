@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
 options: "05a5e2a686aa48348b1b41ca36fa5412"
-build_time: [1581356632, 925722000]
+build_time: [1581451202, 828925000]
 inputs:
   "/Users/ThiagoBevi/Developer/Teste_iOS/Pods/Kingfisher/Sources/Views/AnimatedImageView.swift": [1579182543, 542789641]
   "/Users/ThiagoBevi/Developer/Teste_iOS/Pods/Kingfisher/Sources/Networking/AuthenticationChallengeResponsable.swift": [1579182543, 538482235]

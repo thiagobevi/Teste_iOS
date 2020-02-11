@@ -14,15 +14,16 @@ class FavoritesTableViewController: UITableViewController {
     
     var presenter: FavoritesPresenter?
     var favoriteMovies: [Movie]?
-    
-    
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter?.atachView(view: self)
-        favoriteMovies = presenter?.loadFavoriteMovies()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        presenter?.fetchFavoriteMovies()
+    }
+    
     // MARK: - Table view data source
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -46,22 +47,22 @@ class FavoritesTableViewController: UITableViewController {
         }
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            self.favoriteMovies?.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+            presenter?.deleteMovie(id: (favoriteMovies[indexPath.row]))
+        }
+    }
+    
 }
 
 extension FavoritesTableViewController: FavoritesView {
-    
-    func attachView(view: FavoritesView) {
-        
+
+    func showFavoriteMovies(_ movies: [Movie]) {
+        favoriteMovies = movies
+        tableView.reloadData()
     }
-    
-    func loadFavorites() {
-        presenter?.loadFavoriteMovies()
-    }
-    
-    func deleteFavorite(id: Int) {
-        presenter?.deleteMovie(id: id)
-        
-    }
-    
     
 }

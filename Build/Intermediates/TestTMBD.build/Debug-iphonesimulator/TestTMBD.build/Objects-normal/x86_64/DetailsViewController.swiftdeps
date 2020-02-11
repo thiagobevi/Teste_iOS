@@ -435,6 +435,8 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "kf"]
 - !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["6SQLite13_OptionalTypeP", "kf"]
+- !private ["6SQLite13_OptionalTypeP", "text"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "kf"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
 depends-nominal:
@@ -499,6 +501,7 @@ depends-nominal:
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - !private "s21_ObjectiveCBridgeableP"
+- !private "6SQLite13_OptionalTypeP"
 - !private "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
@@ -533,13 +536,19 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework/Modules/SQLite.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework/Headers/SQLite.swift-umbrella.h"
+- "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework/Headers/SQLiteObjc.h"
+- "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework/Headers/SQLite.h"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework/Headers/SQLite-Swift.h"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework/Modules/module.modulemap"
 - "/Users/ThiagoBevi/Developer/Teste_iOS/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"

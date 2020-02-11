@@ -39,6 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         favoritePresenter.atachView(view: favoriteController)
         let favoriteNavigationController = UINavigationController(rootViewController: favoriteController)
         
+        
       // MARK: TabBar
         
         let tabBarController = UITabBarController()

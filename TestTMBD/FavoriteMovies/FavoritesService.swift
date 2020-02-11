@@ -12,7 +12,7 @@ import SQLite3
 protocol FavoritesServiceProtocol {
     func addFavoriteMovie(movie: Movie)
     func readFavoriteMovieTable() -> [Movie]
-    func deleteFavoritMovieRow()
+    func deleteFavoritMovieRow(id: Int64)
 }
 
 class FavoritesService: FavoritesServiceProtocol {
@@ -34,8 +34,8 @@ class FavoritesService: FavoritesServiceProtocol {
     }
     
     
-    func deleteFavoritMovieRow() {
-        
+    func deleteFavoritMovieRow(id: Int64) {
+        database.deleteMovie(idMovie: id)
     }
     
 }

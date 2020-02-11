@@ -9,7 +9,6 @@
 import Foundation
 
 protocol FavoritesView {
-    func attachView(view: FavoritesView)
-    func loadFavorites()
-    func deleteFavorite(id: Int)
+  
+    func showFavoriteMovies(_ movies: [Movie])
 }

@@ -8,103 +8,96 @@
 
 import Foundation
 import SQLite3
+import SQLite
 
 protocol DatabaseProtocol {
     func openDatabase()
     func loadDatabase() -> [Movie]
     func insertMovie(movie: Movie)
-    func deleteMovie(id: Int)
+    func deleteMovie(idMovie: Int64)
 }
 
+        // MARK: - SQLite.Swift
+
 class Database: DatabaseProtocol {
-   
+    
+    var db: OpaquePointer?
+    let moviesTable = Table("Movies")
     static let shared = Database()
     private init () {}
-    var db: OpaquePointer?
+    
+    let id = Expression<Int64>("id")
+    let title = Expression<String>("title")
+    let idTMDB = Expression<Int64>("idTMDB")
+    let release_date = Expression<String>("release_date")
+    let overview = Expression<String>("overview")
+    let vote_average = Expression<Double>("vote_average")
+    let poster_path = Expression<String>("poster_path")
+    let backdrop_path = Expression<String>("backdrop_path")
     
     func openDatabase() {
-        let fileUrl =  try!
-            FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false).appendingPathComponent("FavoriteMovies.sqlite")
         
-        if sqlite3_open(fileUrl.path, &db) != SQLITE_OK {
-            print("Error opening database")
-            return
-        } else {
-            let createTableQuery = "CREATE TABLE IF NOT EXISTS FavoriteMovies (id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, idTMDB INTEGER, release_date TEXT, overview TEXT, vote_average REAL, poster_path TEXT, backdrop_path TEXT )"
-            if sqlite3_exec(db, createTableQuery, nil, nil, nil) != SQLITE_OK {
-                print("Error creating Table")
-                return
-            }
+        let path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
+        let dbs = try! Connection("\(path)/Movies.sqlite3")
+        
+        do {
+            try dbs.run(moviesTable.create(ifNotExists: true) { t in
+                t.column(id, primaryKey: true)
+                t.column(title)
+                t.column(idTMDB, unique: true)
+                t.column(release_date)
+                t.column(overview)
+                t.column(vote_average)
+                t.column(poster_path)
+                t.column(backdrop_path)
+            })
+        } catch let error {
+            print("Fail to create table \(error)")
         }
-        print("All good")
     }
     
     func loadDatabase() -> [Movie] {
-        var stmt: OpaquePointer?
-        let selectQuery = "SELECT * FROM FavoriteMovies"
         var favoriteMovies: [Movie] = []
+        let path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
+        let dbs = try! Connection("\(path)/Movies.sqlite3")
         
-        if sqlite3_prepare_v2(db, selectQuery, -1, &stmt, nil) != SQLITE_OK {
-            print("Error selecting query")
-        } else {
-            while sqlite3_step(stmt) == SQLITE_ROW {
-                let title = String(describing: String(cString: sqlite3_column_text(stmt, 1)))
-                let idTMDB = sqlite3_column_int(stmt, 2)
-                let release_date = String(describing: String(cString: sqlite3_column_text(stmt, 3)))
-                let overview = String(describing: String(cString: sqlite3_column_text(stmt, 4)))
-                let vote_average = sqlite3_column_double(stmt, 5)
-                let poster_path = String(describing: String(cString: sqlite3_column_text(stmt, 6)))
-                let backdrop_path = String(describing: String(cString: sqlite3_column_text(stmt, 7)))
+        for t in try! dbs.prepare(moviesTable) {
+            do {
                 
-                favoriteMovies.append(Movie(title: title, id: idTMDB, release_date: release_date, overview: overview, vote_average: vote_average, poster_path: poster_path, backdrop_path: backdrop_path))
+                favoriteMovies.append(Movie(title: try? t.get(title), id: try t.get(idTMDB), release_date: try? t.get(release_date), overview: try t.get(overview), vote_average: try t.get(vote_average), poster_path: try t.get(poster_path), backdrop_path: try t.get(backdrop_path)))
+                print("Movie append succesfully into favoriteMovies, can show it in a view")
+            } catch {
+                print(error)
             }
         }
-        sqlite3_finalize(stmt)
+        
         return favoriteMovies
     }
     
     func insertMovie(movie: Movie) {
-        var stmt: OpaquePointer?
-        let insertQuery = "INSERT INTO FavoriteMovies (title, idTMDB, release_date, overview, vote_average, poster_path, backdrop_path) VALUES (?, ?, ?, ?, ?, ?, ?)"
+        let path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
+        let dbs = try! Connection("\(path)/Movies.sqlite3")
         
-        if sqlite3_prepare_v2(db, insertQuery, -1, &stmt, nil) != SQLITE_OK {
-            print("Error binding query")
+        do {
+            try dbs.run(moviesTable.insert(title <- movie.title!, idTMDB <- movie.id!, release_date <- movie.release_date!, overview <- movie.overview!, vote_average <- movie.vote_average!, poster_path <- movie.poster_path!, backdrop_path <- movie.backdrop_path!))
+        } catch {
+            print(error)
         }
         
-        if sqlite3_bind_text(stmt, 1, movie.title, -1, nil) != SQLITE_OK {
-            print("Error binding name")
-        }
-        
-        if sqlite3_bind_int(stmt, 2, (movie.id!)) != SQLITE_OK {
-            print("Error binding rank")
-        }
-        
-        if sqlite3_bind_text(stmt, 3, movie.release_date, -1, nil) != SQLITE_OK {
-            print("Error binding rank")
-        }
-        
-        if sqlite3_bind_text(stmt, 4, movie.overview, -1, nil) != SQLITE_OK {
-            print("Error binding rank")
-        }
-        
-        if sqlite3_bind_int(stmt, 5, Int32((movie.vote_average)!)) != SQLITE_OK {
-            print("Error binding rank")
-        }
-        
-        if sqlite3_bind_text(stmt, 6, movie.poster_path, -1, nil) != SQLITE_OK {
-            print("Error binding rank")
-        }
-        
-        if sqlite3_bind_text(stmt, 7, movie.backdrop_path, -1, nil) != SQLITE_OK {
-            print("Error binding rank")
-        }
-        
-        if sqlite3_step(stmt) == SQLITE_DONE {
-            print("Hero saved successfully")
+    }
+    
+    func deleteMovie(idMovie: Int64) {
+        let path = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
+        let dbs = try! Connection("\(path)/Movies.sqlite3")
+        let moviesToDelete = moviesTable.filter(id == idMovie)
+        do {
+            try dbs.run(moviesToDelete.delete())
+        } catch {
+            print(error)
         }
     }
     
-    func deleteMovie(id: Int) {
-        
-    }
 }
+
+
+
